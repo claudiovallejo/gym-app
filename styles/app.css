@@ -176,9 +176,10 @@ html { -webkit-font-smoothing: antialiased; }
   ANIMATABLE PROPERTIES
 */
 .transform-tY0 { transform: translateY(0); }
-.transform-tYm3 { transform: translateY(3rem); }
-.transform-tYm1_5 { transform: translateY(1.5rem); }
 .transform-tYm0_5 { transform: translateY(0.5rem); }
+.transform-tYm1_5 { transform: translateY(1.5rem); }
+.transform-tYm3 { transform: translateY(3rem); }
+.transform-tYm4 { transform: translateY(4rem); }
 .transform-tYm-0_5 { transform: translateY(-0.5rem); }
 .o0 { opacity: 0; }
 .o1 { opacity: 1; }
