@@ -13,5 +13,3 @@ function toggle($element, classA, classB) {
   $element.classList.toggle(classA);
   $element.classList.toggle(classB);
 }
-const $total = document.querySelector(`[data-app="total"]`);
-$total.textContent = ($cards.length - 1) * 2 + " Exercises";
