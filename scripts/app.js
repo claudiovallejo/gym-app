@@ -3,9 +3,9 @@ $cards && window.addEventListener('load', loadCards);
 //
 function loadCards() {
   for (var i = 0; i < $cards.length; i++) {
-    $cards[i].setAttribute('style', 'transition-delay: ' + (i*0.15) + 's;');
+    $cards[i].setAttribute('style', 'transition-delay: ' + ((i+1)*0.075) + 's;');
     toggle($cards[i], 'o0', 'o1');
-    toggle($cards[i], 'transform-tY0', 'transform-tYm3');
+    toggle($cards[i], 'transform-tY0', 'transform-tYm4');
   };
 }
 //
