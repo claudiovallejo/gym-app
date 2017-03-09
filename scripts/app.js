@@ -1,4 +1,4 @@
-const $cards = document.getElementsByClassName('js-card');
+const $cards = document.querySelectorAll('[data-value]');
 $cards && window.addEventListener('load', loadCards);
 //
 function loadCards() {
@@ -14,7 +14,14 @@ function toggle($element, classA, classB) {
   $element.classList.toggle(classB);
 }
 //
-$total = document.querySelector(`[data-app="total"]`);
-if ($total) {
-  $total.textContent = ($cards.length - 1) * 2 + " Exercises";
+if ($cards) {
+  var total = 0;
+  $cards.forEach(function($card) {
+    if ($card.dataset.value === "single")
+      total++;
+    else if ($card.dataset.value === "double")
+      total += 2;
+  });
+  const $total = document.querySelector(`[data-app="total"]`);
+  $total.textContent = total + " Exercises";
 }
