@@ -19,7 +19,7 @@ html { -webkit-font-smoothing: antialiased; }
 .black { color: #000000; }
 .dark-gray { color: #828282; }
 .gray { color: #bdbdbd; }
-.green { color: #4CAF50; }
+.blue { color: #0080ff; }
 /* Backgrounds */
 .bg-blue { background-color: #0080ff; }
 .bg-silver { background-color: #eeeeee; }
