@@ -13,3 +13,8 @@ function toggle($element, classA, classB) {
   $element.classList.toggle(classA);
   $element.classList.toggle(classB);
 }
+//
+$total = document.querySelector(`[data-app="total"]`);
+if ($total) {
+  $total.textContent = ($cards.length - 1) * 2 + " Exercises";
+}
