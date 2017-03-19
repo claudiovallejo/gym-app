@@ -4,7 +4,7 @@ $cards && window.addEventListener('load', function(){
   loadElements($cards);
 });
 //  Weekly routine cards
-const $routines = document.querySelectorAll(`[data-card="routine"]`);
+const $routines = document.querySelectorAll('[data-card="routine"]');
 $routines && window.addEventListener('load', function(){
   loadElements($routines);
 });
