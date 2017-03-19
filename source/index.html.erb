@@ -1,0 +1,20 @@
+<%# Config %>
+<% rl = data.routines.length - 1 %>
+<%# End %>
+<main>
+  <% data.routines.each_with_index do |routine, r| %>
+    <%# Config %>
+    <% if r != rl %>
+      <% margin_bottom = "mb1" %>
+      <% border_bottom = "bb b--light-gray" %>
+    <% else %>
+      <% margin_bottom = "" %>
+      <% border_bottom = "" %>
+    <% end %>
+    <%# End %>
+    <a class="db cf pa2 <%= border_bottom %> td-none" href="<%= routine.day.parameterize %>">
+      <h1 class="ma0 mb0_5 roboto fw5 f2 black td-none" href="/<%= routine.day.parameterize %>"><%= routine.name %></h1>
+      <h1 class="ma0 roboto fw5 f1_5 dark-gray td-none"><%= routine.day %></h1>
+    </a>
+  <% end %>
+</main>
