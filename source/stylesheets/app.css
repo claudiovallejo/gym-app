@@ -15,13 +15,17 @@ html { -webkit-font-smoothing: antialiased; }
 .f2 { font-size: 2rem; }
 /* Line Height */
 .lh1_25 { line-height: 1.25; }
+/* Text Decoration */
+.td-none { text-decoration: none; }
 /* Colors */
 .black { color: #000000; }
 .dark-gray { color: #828282; }
 .gray { color: #bdbdbd; }
 .blue { color: #0080ff; }
+.green { color: #219653; }
 /* Backgrounds */
 .bg-blue { background-color: #0080ff; }
+.bg-green { background-color: #219653; }
 .bg-silver { background-color: #eeeeee; }
 /* Shadows */
 .bs-0_12 { box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.16); }
