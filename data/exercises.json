@@ -48,5 +48,30 @@
     "name": "Seated Tricep Press",
     "target": "Tricep",
     "source": "http://www.bodybuilding.com/exercises/detail/view/name/seated-triceps-press"
+  },
+  {
+    "name": "Crunches",
+    "target": "Core",
+    "source": "http://www.bodybuilding.com/exercises/detail/view/name/crunches"
+  },
+  {
+    "name": "Ab Crunch Machine",
+    "target": "Core",
+    "source": "http://www.bodybuilding.com/exercises/detail/view/name/ab-crunch-machine"
+  },
+  {
+    "name": "Air Bike",
+    "target": "Core",
+    "source": "http://www.bodybuilding.com/exercises/detail/view/name/air-bike"
+  },
+  {
+    "name": "Bent-knee Hip Raise",
+    "target": "Core",
+    "source": "http://www.bodybuilding.com/exercises/detail/view/name/bent-knee-hip-raise"
+  },
+  {
+    "name": "Plank",
+    "target": "Core",
+    "source": "http://www.bodybuilding.com/exercises/detail/view/name/plank"
   }
 ]
