@@ -45,6 +45,27 @@
         "exercises": ["Seated Tricep Press"],
         "sets": [12, 10, 10, 8],
         "rest": "45sec"
+      },
+      {
+        "type": "circuit",
+        "name": "Basic Ab Circuit",
+        "target": "Core",
+        "exercises": ["Crunches", "Ab Crunch Machine", "Air Bike", "Bent-knee Hip Raise", "Plank"],
+        "rounds": "1 Round",
+        "duration": "1min"
+      }
+    ]
+  },
+  {
+    "day": "Tuesday",
+    "name": "Legs + Cardio",
+    "color": "green",
+    "exercises": [
+      {
+        "type": "cardio",
+        "exercises": ["Treadmill Jog"],
+        "duration": "10min",
+        "speed": "4 - 6mph"
       }
     ]
   }
