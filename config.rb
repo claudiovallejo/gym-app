@@ -1,23 +1,18 @@
 ###
-# Page options, layouts, aliases and proxies
+# Config
 ###
 
-# Per-page layout changes:
-#
 # With no layout
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
 # With alternative layout
-page "routine.html", layout: :main
+page "index.html", layout: :main
+page "routine.html", layout: :routine
 
-# Proxies
-data.routines.each do |routine|
-  proxy "/#{routine.day.parameterize}/index.html", "/routine.html", :locals => { :routine => routine }, :ignore => true
-end
-
-# General configuration
+# Activate directory indexes
+activate :directory_indexes
 
 # Reload the browser automatically whenever files change
 configure :development do
@@ -25,21 +20,23 @@ configure :development do
 end
 
 ###
-# Helpers
+# Proxies
 ###
 
-# Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+# Daily routine pages
+data.routines.each do |routine|
+  proxy "/#{routine.day.parameterize}/index.html", "/routine.html", :locals => { :routine => routine }, :ignore => true
+end
+
+###
+# Build Config
+###
 
 # Build-specific configuration
 configure :build do
   # Minify CSS on build
-  # activate :minify_css
+  activate :minify_css
 
   # Minify Javascript on build
-  # activate :minify_javascript
+  activate :minify_javascript
 end
