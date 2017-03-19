@@ -1,13 +1,50 @@
 [
   {
     "day": "Monday",
-    "name": "Chest, Triceps and Abs",
+    "name": "Chest, Tricep + Abs",
+    "color": "blue",
     "exercises": [
       {
         "type": "cardio",
-        "exercises": ["Warmup"],
-        "duration": { "value": 10, "unit": "min" },
+        "exercises": ["Treadmill Jog"],
+        "duration": "10min",
         "speed": "4 - 6mph"
+      },
+      {
+        "type": "set",
+        "exercises": ["Barbell Bench Press"],
+        "sets": [15, 12, 10, 10],
+        "rest": "1min"
+      },
+      {
+        "type": "set",
+        "exercises": ["Dumbbell Incline Press"],
+        "sets": [15, 12, 10, 10],
+        "rest": "No rest"
+      },
+      {
+        "type": "set",
+        "exercises": ["Dumbbell Flyes"],
+        "sets": [12, 12, 12, 12],
+        "rest": "1min"
+      },
+      {
+        "type": "set",
+        "exercises": ["Chest Dips"],
+        "sets": [10, 10, 10, 10],
+        "rest": "1min"
+      },
+      {
+        "type": "superset",
+        "exercises": ["Rope Pushdown", "Reverse Pushdown"],
+        "sets": [15, 12, 10, 10],
+        "rest": "No rest"
+      },
+      {
+        "type": "set",
+        "exercises": ["Seated Tricep Press"],
+        "sets": [12, 10, 10, 8],
+        "rest": "45sec"
       }
     ]
   }
