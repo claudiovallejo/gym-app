@@ -13,15 +13,3 @@ function toggle($element, classA, classB) {
   $element.classList.toggle(classA);
   $element.classList.toggle(classB);
 }
-//
-if ($cards) {
-  var total = 0;
-  $cards.forEach(function($card) {
-    if ($card.dataset.value === "single")
-      total++;
-    else if ($card.dataset.value === "double")
-      total += 2;
-  });
-  const $total = document.querySelector(`[data-app="total"]`);
-  $total.textContent = total + " Exercises";
-}
