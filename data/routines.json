@@ -1,0 +1,14 @@
+[
+  {
+    "day": "Monday",
+    "name": "Chest, Triceps and Abs",
+    "exercises": [
+      {
+        "type": "cardio",
+        "exercises": ["Warmup"],
+        "duration": { "value": 10, "unit": "min" },
+        "speed": "4 - 6mph"
+      }
+    ]
+  }
+]

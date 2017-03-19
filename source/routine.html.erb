@@ -1,26 +1,18 @@
-<!-- Navigation -->
-<nav class="fixed z-2 top-0 right-0 left-0 w-100 cf ma0 pv1 bg-white bb b--light-gray">
-  <h1 class="fl ma0 pl1 roboto fw5 f1_125 black">Back, Biceps, and Abs</h1>
-  <h1 data-app="total" class="fr ma0 pr1 roboto fw5 f1_125 dark-gray"><!-- Total Exercises --></h1>
-</nav>
+<%# Config %>
+<% routine = locals[:routine] %>
+<%# End %>
+<%= partial("partials/navigation/menu", :locals => { :day => day, :name => name }) %>
 <!-- Content -->
 <main data-meal="container" class="mt53x">
-  <!-- 0 Warmup -->
-  <article data-value="null" class="function-cb duration1 property-all o0 transform-tYm4 cf pv2 ph1 bb b--light-gray">
-    <div class="fl w-10">
-      <h1 class="ma0 roboto f1_125 fw5 black">0</h1>
-    </div>
-    <header class="fl w-90">
-      <div class="cf" style="margin-bottom: 0.25rem;">
-        <h1 class="fl ma0 roboto f1_125 fw5 black">Warmup</h1>
-        <h1 class="fr ma0 roboto f1_125 fw5 black">10min</h1>
-      </div>
-      <div class="cf">
-        <h3 class="fl ma0 roboto f1 fw5 dark-gray">Light Cardio</h3>
-        <h3 class="fr ma0 roboto f1 fw5 dark-gray">4 - 6mph</h3>
-      </div>
-    </header>
-  </article>
+  <%# Config %>
+  <% el = routine.exercises.length - 1 %>
+  <%# End %>
+  <% routine.exercises.each do |exercise, e| %>
+    <% if exercise.type === "cardio" %>
+      <%# Cardio Exercise %>
+      <%= partial("partials/content/cardio", :locals => {  }) %>
+    <% end %>
+  <% end %>
   <!-- 1 Underhand Pullups -->
   <article data-value="single" class="function-cb duration1 property-all o0 transform-tYm4 cf pv2 ph1 bb b--light-gray">
     <!-- Exercise Index -->

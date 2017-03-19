@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Warmup",
+    "target": "Cardio"
+  },
+  {
+    "name": "Bench Press",
+    "target": "Chest"
+  },
+  {
+    "name": "Incline Bench Press",
+    "target": "Upper Chest"
+  },
+  {
+    "name": "Decline Bench Press",
+    "target": "Lower Chest"
+  },
+  {
+    "name": "Dumbbell Flyes",
+    "target": "Chest"
+  },
+  {
+    "name": "Cable Flyes",
+    "target": "Chest"
+  },
+  {
+    "name": "Machine Flyes",
+    "target": "Chest"
+  }
+]
