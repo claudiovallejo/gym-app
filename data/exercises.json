@@ -1,30 +1,52 @@
 [
   {
-    "name": "Warmup",
-    "target": "Cardio"
+    "name": "Treadmill Jog",
+    "target": "Cardio",
+    "source": "https://www.bodybuilding.com/exercises/detail/view/name/jogging-treadmill"
   },
   {
-    "name": "Bench Press",
-    "target": "Chest"
+    "name": "Barbell Bench Press",
+    "target": "Chest",
+    "source": "http://www.bodybuilding.com/exercises/detail/view/name/barbell-bench-press-medium-grip"
   },
   {
-    "name": "Incline Bench Press",
-    "target": "Upper Chest"
+    "name": "Dumbbell Incline Press",
+    "target": "Upper Chest",
+    "source": "http://www.bodybuilding.com/exercises/detail/view/name/incline-dumbbell-press"
   },
   {
     "name": "Decline Bench Press",
-    "target": "Lower Chest"
+    "target": "Lower Chest",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/decline-barbell-bench-press"
   },
   {
     "name": "Dumbbell Flyes",
-    "target": "Chest"
+    "target": "Chest",
+    "source": "http://www.bodybuilding.com/exercises/detail/view/name/dumbbell-flyes"
   },
   {
-    "name": "Cable Flyes",
-    "target": "Chest"
+    "name": "Chest Dips",
+    "target": "Chest",
+    "source": "http://www.bodybuilding.com/exercises/detail/view/name/dips-chest-version"
   },
   {
     "name": "Machine Flyes",
-    "target": "Chest"
+    "target": "Chest",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/butterfly"
+  },
+  {
+    "name": "Rope Pushdown",
+    "target": "Tricep",
+    "source": "http://www.bodybuilding.com/exercises/detail/view/name/triceps-pushdown-rope-attachment"
+  },
+  {
+    "name": "Reverse Pushdown",
+    "target": "Tricep",
+    "source": "http://www.bodybuilding.com/exercises/detail/view/name/reverse-grip-triceps-pushdown"
+  },
+  {
+    "name": "Seated Tricep Press",
+    "target": "Tricep",
+    "source": "http://www.bodybuilding.com/exercises/detail/view/name/seated-triceps-press"
   }
 ]
