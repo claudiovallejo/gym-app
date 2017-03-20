@@ -110,5 +110,76 @@
         "speed": "4 - 6mph"
       }
     ]
+  },
+  {
+    "day": "Wednesday",
+    "name": "Delts, Back + Abs",
+    "color": "orange",
+    "exercises": [
+      {
+        "type": "cardio",
+        "exercises": ["Treadmill Jog"],
+        "duration": "10min",
+        "speed": "4 - 6mph"
+      },
+      {
+        "type": "superset",
+        "exercises": ["Smith Overhead Press", "Bent-over Barbell Row"],
+        "sets": [15, 12, 10, 10],
+        "rest": "No Rest"
+      },
+      {
+        "type": "superset",
+        "exercises": ["Arnold Dumbbell Press", "Wide Rear Pulldown"],
+        "sets": [15, 12, 10, 10],
+        "rest": "No Rest"
+      },
+      {
+        "type": "superset",
+        "exercises": ["Dumbbell Upright Row", "Dumbbell Incline Row"],
+        "sets": [12, 12, 10, 10],
+        "rest": "No Rest"
+      },
+      {
+        "type": "set",
+        "exercises": ["Front Dumbbell Raise"],
+        "sets": [12, 12, 12, 12],
+        "rest": "45sec"
+      },
+      {
+        "type": "circuit",
+        "name": "Basic Ab Circuit",
+        "target": "Core",
+        "exercises": ["Plank", "Crunches", "Air Bike", "Bent-knee Hip Raise", "Jackknife Situp"],
+        "rounds": "1 Round",
+        "duration": "1min"
+      }
+    ]
+  },
+  {
+    "day": "Thursday",
+    "name": "Legs + Cardio",
+    "color": "red",
+    "exercises": [
+      {
+        "type": "cardio",
+        "exercises": ["Treadmill Jog"],
+        "duration": "10min",
+        "speed": "4 - 6mph"
+      }
+    ]
+  },
+  {
+    "day": "Friday",
+    "name": "Chest, Tricep + Abs",
+    "color": "purple",
+    "exercises": [
+      {
+        "type": "cardio",
+        "exercises": ["Treadmill Jog"],
+        "duration": "10min",
+        "speed": "4 - 6mph"
+      }
+    ]
   }
 ]
