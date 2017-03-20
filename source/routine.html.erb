@@ -9,20 +9,20 @@
   <% routine.exercises.each_with_index do |exercise, e| %>
     <%# Cardio Exercise %>
     <% if exercise.type === "cardio" %>
-      <%= partial("partials/content/cardio", :locals => { :exercise => exercise, :e => c, :el => el }) %>
+      <%= partial("partials/content/cardio", :locals => { :exercise => exercise, :c => c, :e => e, :el => el }) %>
     <% end %>
     <%# Set Exercise %>
     <% if exercise.type === "set" %>
-      <%= partial("partials/content/set", :locals => { :exercise => exercise, :e => c, :el => el, :color => routine.color }) %>
+      <%= partial("partials/content/set", :locals => { :exercise => exercise, :c => c, :e => e, :el => el, :color => routine.color }) %>
     <% end %>
     <%# Superset Exercise %>
     <% if exercise.type === "superset" %>
-      <%= partial("partials/content/superset", :locals => { :exercise => exercise, :e => c, :el => el, :color => routine.color }) %>
+      <%= partial("partials/content/superset", :locals => { :exercise => exercise, :c => c, :e => e, :el => el, :color => routine.color }) %>
       <% c = c + 1 %>
     <% end %>
     <%# Circuit Exercise %>
     <% if exercise.type === "circuit" %>
-      <%= partial("partials/content/circuit", :locals => { :exercise => exercise, :e => c, :el => el }) %>
+      <%= partial("partials/content/circuit", :locals => { :exercise => exercise, :c => c, :e => e, :el => el }) %>
     <% end %>
     <% c = c + 1 %>
   <% end %>
