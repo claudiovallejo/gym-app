@@ -56,23 +56,58 @@
   },
   {
     "name": "Wide Overhand Pullups",
-    "target": "Lats",
+    "target": "Lat",
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/pullups"
   },
   {
     "name": "V-Bar Pulldown",
-    "target": "Lats",
+    "target": "Lat",
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/v-bar-pulldown"
   },
   {
     "name": "Seated Cable Rows",
-    "target": "Lats",
+    "target": "Lat",
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/seated-cable-rows"
   },
   {
     "name": "Close Grip Machine Pulldown",
-    "target": "Lats",
+    "target": "Lat",
     "source": "https://previews.123rf.com/images/alexandermakatserchyk/alexandermakatserchyk1606/alexandermakatserchyk160600005/60334063-Grip-machine-lat-pulldown-Exercising-for-bodybuilding-Target-muscles-are-marked-in-red-3D-illustrati-Stock-Illustration.jpg"
+  },
+  {
+    "name": "Wide Rear Pulldown",
+    "target": "Upper Back",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/wide-grip-pulldown-behind-the-neck"
+  },
+  {
+    "name": "Bent-over Barbell Row",
+    "target": "Middle Back",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/bent-over-barbell-row"
+  },
+  {
+    "name": "Dumbbell Incline Row",
+    "target": "Middle Back",
+    "source": "https://www.bodybuilding.com/exercises/detail/view/name/dumbbell-incline-row"
+  },
+  {
+    "name": "Smith Overhead Press",
+    "target": "Deltoid",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/smith-machine-overhead-shoulder-press"
+  },
+  {
+    "name": "Arnold Dumbbell Press",
+    "target": "Deltoid",
+    "source": "https://www.bodybuilding.com/exercises/detail/view/name/arnold-dumbbell-press"
+  },
+  {
+    "name": "Dumbbell Upright Row",
+    "target": "Deltoid",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/standing-dumbbell-upright-row"
+  },
+  {
+    "name": "Front Dumbbell Raise",
+    "target": "Deltoid",
+    "source": "https://www.bodybuilding.com/exercises/detail/view/name/front-two-dumbbell-raise"
   },
   {
     "name": "Preacher Curl",
@@ -113,5 +148,10 @@
     "name": "Plank",
     "target": "Core",
     "source": "http://www.bodybuilding.com/exercises/detail/view/name/plank"
+  },
+  {
+    "name": "Jackknife Situp",
+    "target": "Core",
+    "source": "https://www.bodybuilding.com/exercises/detail/view/name/jackknife-sit-up"
   }
 ]
