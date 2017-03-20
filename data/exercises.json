@@ -5,6 +5,11 @@
     "source": "https://www.bodybuilding.com/exercises/detail/view/name/jogging-treadmill"
   },
   {
+    "name": "Afternoon Run",
+    "target": "Cardio",
+    "source": "https://www.bodybuilding.com/exercises/detail/view/name/trail-runningwalking"
+  },
+  {
     "name": "Barbell Bench Press",
     "target": "Chest",
     "source": "http://www.bodybuilding.com/exercises/detail/view/name/barbell-bench-press-medium-grip"
@@ -48,6 +53,41 @@
     "name": "Seated Tricep Press",
     "target": "Tricep",
     "source": "http://www.bodybuilding.com/exercises/detail/view/name/seated-triceps-press"
+  },
+  {
+    "name": "Wide Overhand Pullups",
+    "target": "Lats",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/pullups"
+  },
+  {
+    "name": "V-Bar Pulldown",
+    "target": "Lats",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/v-bar-pulldown"
+  },
+  {
+    "name": "Seated Cable Rows",
+    "target": "Lats",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/seated-cable-rows"
+  },
+  {
+    "name": "Close Grip Machine Pulldown",
+    "target": "Lats",
+    "source": "https://previews.123rf.com/images/alexandermakatserchyk/alexandermakatserchyk1606/alexandermakatserchyk160600005/60334063-Grip-machine-lat-pulldown-Exercising-for-bodybuilding-Target-muscles-are-marked-in-red-3D-illustrati-Stock-Illustration.jpg"
+  },
+  {
+    "name": "Preacher Curl",
+    "target": "Bicep",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/preacher-curl"
+  },
+  {
+    "name": "Dumbbell Alternate Bicep Curl",
+    "target": "Bicep",
+    "source": "https://www.bodybuilding.com/exercises/detail/view/name/dumbbell-alternate-bicep-curl"
+  },
+  {
+    "name": "Plate Hand Squeeze",
+    "target": "Forearm",
+    "source": "https://www.bodybuilding.com/exercises/detail/view/name/standing-olympic-plate-hand-squeeze"
   },
   {
     "name": "Crunches",
