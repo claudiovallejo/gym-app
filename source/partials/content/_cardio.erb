@@ -1,9 +1,9 @@
 <%# Config %>
 <% a = fetch_exercise exercise.exercises[0] %>
 <%# End %>
-<article data-value="null" class="function-cb duration1 property-all o0 transform-tYm4 cf pv2 ph1 bb b--light-gray">
+<article data-value="null" class="function-cb duration1 property-all o0 transform-tYm4 cf pv2 ph1 <% if e != el %>bb b--light-gray<% end %>">
   <div class="fl w-10">
-    <h1 class="ma0 roboto f1_125 fw5 black"><%= e %></h1>
+    <h1 class="ma0 roboto f1_125 fw5 black"><%= c %></h1>
   </div>
   <header class="fl w-90">
     <div class="cf" style="margin-bottom: 0.25rem;">
