@@ -4,7 +4,7 @@
   <% exercises.push(fetch_exercise exe) %>
 <% end %>
 <%# End %>
-<article data-value="single" class="function-cb duration1 property-all o0 transform-tYm4 cf pv2 ph1 <% if e != el %>bb b--light-gray<% end %>">
+<article data-value="single" class="function-cb duration1 property-all o0 transform-tYm4 cf pv2 ph1">
   <div class="fl w-10">
     <h1 class="ma0 roboto f1_125 fw5 black"><%= c %></h1>
   </div>
@@ -25,7 +25,7 @@
       <%# End %>
       <% exercises.each_with_index do |exe, x| %>
         <div class="w-100 cf <% if x != el %>mb1<% end %>">
-          <a class="fl db ma0 roboto f1_125 fw5 black td-none" href="<%= exe.source %>" target="_blank"><%= exe.name %></a>
+          <a class="fl db ma0 roboto f1_125 fw5 black" href="<%= exe.source %>" target="_blank"><%= exe.name %></a>
           <p class="fr ma0 roboto f1_125 fw5 dark-gray"><%= exercise.duration %></p>
         </div>
       <% end %>

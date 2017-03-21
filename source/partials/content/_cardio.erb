@@ -1,13 +1,13 @@
 <%# Config %>
 <% a = fetch_exercise exercise.exercises[0] %>
 <%# End %>
-<article data-value="null" class="function-cb duration1 property-all o0 transform-tYm4 cf pv2 ph1 <% if e != el %>bb b--light-gray<% end %>">
+<article data-value="null" class="function-cb duration1 property-all o0 transform-tYm4 cf pv2 ph1">
   <div class="fl w-10">
     <h1 class="ma0 roboto f1_125 fw5 black"><%= c %></h1>
   </div>
   <header class="fl w-90">
     <div class="cf" style="margin-bottom: 0.25rem;">
-      <a class="fl ma0 roboto f1_125 fw5 black td-none" href="<%= a.source %>" target="_blank"><%= a.name %></a>
+      <a class="fl ma0 roboto f1_125 fw5 black" href="<%= a.source %>" target="_blank"><%= a.name %></a>
       <h1 class="fr ma0 roboto f1_125 fw5 black"><%= exercise.duration %></h1>
     </div>
     <div class="cf">
