@@ -1,0 +1,13 @@
+<%# Config %>
+<% meta = data.meta %>
+<%# End %>
+<% meta.favicons.each do |favicon| %>
+  <% favicon.sizes.each do |size| %>
+    <link rel="<%= favicon.rel %>" sizes="<%= size %>" href="https://gym.netlify.com/images/meta/<%= favicon.rel %>-<%= size %><%= favicon.extension %>">
+  <% end %>
+<% end %>
+<% meta.tiles.each do |meta| %>
+  <meta name="<%= meta.name %>" content="<%= meta.content %>">
+<% end %>
+<link rel="shortcut icon" type="image/x-icon" href="https://gym.netlify.com/favicon.ico">
+<link rel="icon" type="image/x-icon" href="https://gym.netlify.com/favicon.ico">
