@@ -55,6 +55,11 @@
     "source": "http://www.bodybuilding.com/exercises/detail/view/name/seated-triceps-press"
   },
   {
+    "name": "Skullcrushers",
+    "target": "Tricep",
+    "source": "https://www.bodybuilding.com/exercises/detail/view/name/lying-close-grip-barbell-triceps-extension-behind-the-head"
+  },
+  {
     "name": "Wide Overhand Pullups",
     "target": "Lat",
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/pullups"
@@ -123,6 +128,51 @@
     "name": "Plate Hand Squeeze",
     "target": "Forearm",
     "source": "https://www.bodybuilding.com/exercises/detail/view/name/standing-olympic-plate-hand-squeeze"
+  },
+  {
+    "name": "Leg Press",
+    "target": "Leg",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/leg-press"
+  },
+  {
+    "name": "Reverse Barbell Lunge",
+    "target": "Leg",
+    "source": "https://www.bodybuilding.com/exercises/detail/view/name/barbell-reverse-lunge"
+  },
+  {
+    "name": "Smith Squat",
+    "target": "Leg",
+    "source": "https://www.bodybuilding.com/exercises/detail/view/name/smith-machine-squat"
+  },
+  {
+    "name": "Wall Squat",
+    "target": "Quad",
+    "source": "https://www.bodybuilding.com/exercises/detail/view/name/wall-squat"
+  },
+  {
+    "name": "Leg Extensions",
+    "target": "Quad",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/leg-extensions"
+  },
+  {
+    "name": "Lying Leg Curls",
+    "target": "Hamstring",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/lying-leg-curls"
+  },
+  {
+    "name": "Alternating Plate Calf Raise",
+    "target": "Calf",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/standing-dumbbell-calf-raise"
+  },
+  {
+    "name": "Dumbbell Calf Raise",
+    "target": "Calf",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/standing-dumbbell-calf-raise"
+  },
+  {
+    "name": "Seated Calf Raise",
+    "target": "Calf",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/seated-calf-raise"
   },
   {
     "name": "Crunches",
