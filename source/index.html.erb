@@ -10,7 +10,7 @@
       <% margin_bottom = "" %>
     <% end %>
     <%# End %>
-    <a data-card="routine" class="function-cb duration1 property-all o0 transform-tYm4 db cf pv2 ph1 td-none" href="<%= routine.day.parameterize %>">
+    <a data-card="routine" class="function-cb duration1 property-all o0 transform-tYm4 db cf pv2 ph1 td-none <% if r != rl %>bb b--light-gray<% end %>" href="<%= routine.day.parameterize %>">
       <h1 class="ma0 mb0_5 roboto fw5 f2 black" href="/<%= routine.day.parameterize %>"><%= routine.name %></h1>
       <h1 class="ma0 roboto fw5 f1_5 dark-gray td-none"><%= routine.day %></h1>
     </a>
