@@ -113,7 +113,7 @@
   },
   {
     "day": "Wednesday",
-    "name": "Delts, Back + Abs",
+    "name": "Chest, Tricep + Abs",
     "color": "orange",
     "exercises": [
       {
@@ -123,28 +123,52 @@
         "speed": "4 - 6mph"
       },
       {
-        "type": "superset",
-        "exercises": ["Smith Overhead Press", "Bent-over Barbell Row"],
+        "type": "set",
+        "exercises": ["Smith Bench Press"],
         "sets": [15, 12, 10, 10],
-        "rest": "No rest"
-      },
-      {
-        "type": "superset",
-        "exercises": ["Arnold Dumbbell Press", "Wide Rear Pulldown"],
-        "sets": [15, 12, 10, 10],
-        "rest": "No rest"
-      },
-      {
-        "type": "superset",
-        "exercises": ["Dumbbell Upright Row", "Dumbbell Incline Row"],
-        "sets": [12, 12, 10, 10],
-        "rest": "No rest"
+        "rest": "45sec rest"
       },
       {
         "type": "set",
-        "exercises": ["Front Dumbbell Raise"],
-        "sets": [12, 12, 12, 12],
+        "exercises": ["Barbell Incline Press"],
+        "sets": [15, 12, 10, 10],
         "rest": "45sec rest"
+      },
+      {
+        "type": "set",
+        "exercises": ["Machine Flyes"],
+        "sets": [15, 12, 10, 10],
+        "rest": "45sec rest"
+      },
+      {
+        "type": "set",
+        "exercises": ["Decline Dumbbell Press"],
+        "sets": [15, 12, 10, 10],
+        "rest": "45sec rest"
+      },
+      {
+        "type": "set",
+        "exercises": ["Reverse Pushdown"],
+        "sets": [10, 10, 10, 10],
+        "rest": "30sec rest"
+      },
+      {
+        "type": "set",
+        "exercises": ["Lying Dumbbell Extension"],
+        "sets": [10, 10, 10, 10],
+        "rest": "30sec rest"
+      },
+      {
+        "type": "set",
+        "exercises": ["Rope Pushdown"],
+        "sets": [10, 10, 10, 10],
+        "rest": "30sec rest"
+      },
+      {
+        "type": "set",
+        "exercises": ["Reverse Pushdown"],
+        "sets": [10, 10, 10, 10],
+        "rest": "30sec rest"
       },
       {
         "type": "circuit",
@@ -152,7 +176,7 @@
         "target": "Core",
         "exercises": ["Plank", "Crunches", "Air Bike", "Bent-knee Hip Raise", "Jackknife Situp"],
         "rounds": "1 Round",
-        "duration": "1min rest"
+        "duration": "1min"
       }
     ]
   },
