@@ -15,9 +15,19 @@
     "source": "http://www.bodybuilding.com/exercises/detail/view/name/barbell-bench-press-medium-grip"
   },
   {
+    "name": "Smith Bench Press",
+    "target": "Chest",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/smith-machine-bench-press"
+  },
+  {
     "name": "Dumbbell Incline Press",
     "target": "Upper Chest",
     "source": "http://www.bodybuilding.com/exercises/detail/view/name/incline-dumbbell-press"
+  },
+  {
+    "name": "Barbell Incline Press",
+    "target": "Upper Chest",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/barbell-incline-bench-press-medium-grip"
   },
   {
     "name": "Decline Bench Press",
@@ -30,6 +40,11 @@
     "source": "http://www.bodybuilding.com/exercises/detail/view/name/dumbbell-flyes"
   },
   {
+    "name": "Machine Flyes",
+    "target": "Chest",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/butterfly"
+  },
+  {
     "name": "Chest Dips",
     "target": "Chest",
     "source": "http://www.bodybuilding.com/exercises/detail/view/name/dips-chest-version"
@@ -38,6 +53,11 @@
     "name": "Machine Flyes",
     "target": "Chest",
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/butterfly"
+  },
+  {
+    "name": "Decline Dumbbell Press",
+    "target": "Lower Chest",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/decline-dumbbell-bench-press"
   },
   {
     "name": "Rope Pushdown",
@@ -58,6 +78,11 @@
     "name": "Skullcrushers",
     "target": "Tricep",
     "source": "https://www.bodybuilding.com/exercises/detail/view/name/lying-close-grip-barbell-triceps-extension-behind-the-head"
+  },
+  {
+    "name": "Lying Dumbbell Extension",
+    "target": "Tricep",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/lying-dumbbell-tricep-extension"
   },
   {
     "name": "Wide Overhand Pullups",
