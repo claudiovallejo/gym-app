@@ -2,7 +2,6 @@
   {
     "day": "Monday",
     "name": "Legs, Calves + Abs",
-    "color": "blue",
     "exercises": [
       {
         "type": "cardio",
@@ -37,6 +36,50 @@
       {
         "type": "superset",
         "exercises": ["Reverse Barbell Lunge", "Wall Squat"],
+        "sets": [15, 12, 10, 10],
+        "rest": "No rest"
+      },
+      {
+        "type": "circuit",
+        "name": "Basic Ab Circuit",
+        "target": "Core",
+        "exercises": ["Crunches", "Ab Crunch Machine", "Air Bike", "Bent-knee Hip Raise", "Plank"],
+        "rounds": "2 Rounds",
+        "duration": "1min"
+      }
+    ]
+  },
+  {
+    "day": "Tuesday",
+    "name": "Lats, Back + Abs",
+    "exercises": [
+      {
+        "type": "cardio",
+        "exercises": ["Treadmill Jog"],
+        "duration": "10min",
+        "speed": "4 - 6mph"
+      },
+      {
+        "type": "superset",
+        "exercises": ["Hammer Grip Pullups", "Back Extensions"],
+        "sets": [15, 12, 10, 10],
+        "rest": "No rest"
+      },
+      {
+        "type": "superset",
+        "exercises": ["V-Bar Pulldown", "Bent-Over Barbell Row"],
+        "sets": [15, 12, 10, 10],
+        "rest": "No rest"
+      },
+      {
+        "type": "superset",
+        "exercises": ["Cable Incline Pushdown", "Wide Rear Pulldown"],
+        "sets": [15, 12, 10, 10],
+        "rest": "No rest"
+      },
+      {
+        "type": "superset",
+        "exercises": ["Seated Cable Rows", "Standing Cable Row"],
         "sets": [15, 12, 10, 10],
         "rest": "No rest"
       },
