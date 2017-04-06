@@ -15,6 +15,11 @@
     "source": "http://www.bodybuilding.com/exercises/detail/view/name/barbell-bench-press-medium-grip"
   },
   {
+    "name": "Dumbbell Bench Press",
+    "target": "Chest",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/dumbbell-bench-press"
+  },
+  {
     "name": "Smith Bench Press",
     "target": "Chest",
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/smith-machine-bench-press"
@@ -58,6 +63,11 @@
     "name": "Decline Dumbbell Press",
     "target": "Lower Chest",
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/decline-dumbbell-bench-press"
+  },
+  {
+    "name": "Tricep Dips",
+    "target": "Tricep",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/dips-triceps-version"
   },
   {
     "name": "Rope Pushdown",
@@ -140,6 +150,11 @@
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/hyperextensions-back-extensions"
   },
   {
+    "name": "Shoulder Barbbell Press",
+    "target": "Deltoid",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/barbell-shoulder-press"
+  },
+  {
     "name": "Smith Overhead Press",
     "target": "Deltoid",
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/smith-machine-overhead-shoulder-press"
@@ -155,9 +170,24 @@
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/standing-dumbbell-upright-row"
   },
   {
+    "name": "Side Cable Raise",
+    "target": "Deltoid",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/standing-low-pulley-deltoid-raise"
+  },
+  {
     "name": "Front Dumbbell Raise",
     "target": "Deltoid",
     "source": "https://www.bodybuilding.com/exercises/detail/view/name/front-two-dumbbell-raise"
+  },
+  {
+    "name": "Front Plate Raise",
+    "target": "Deltoid",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/front-plate-raise"
+  },
+  {
+    "name": "Inline Curl",
+    "target": "Bicep",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/incline-dumbbell-curl"
   },
   {
     "name": "Preacher Curl",
@@ -168,6 +198,16 @@
     "name": "Dumbbell Alternate Bicep Curl",
     "target": "Bicep",
     "source": "https://www.bodybuilding.com/exercises/detail/view/name/dumbbell-alternate-bicep-curl"
+  },
+  {
+    "name": "Hammer Curls",
+    "target": "Bicep",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/hammer-curls"
+  },
+  {
+    "name": "Barbbell Curl",
+    "target": "Bicep",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/barbell-curl"
   },
   {
     "name": "Plate Hand Squeeze",

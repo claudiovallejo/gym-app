@@ -51,7 +51,7 @@
   },
   {
     "day": "Tuesday",
-    "name": "Lats, Back + Abs",
+    "name": "Lats and Back",
     "exercises": [
       {
         "type": "cardio",
@@ -80,6 +80,148 @@
       {
         "type": "superset",
         "exercises": ["Seated Cable Rows", "Standing Cable Row"],
+        "sets": [15, 12, 10, 10],
+        "rest": "No rest"
+      },
+      {
+        "type": "circuit",
+        "name": "Basic Ab Circuit",
+        "target": "Core",
+        "exercises": ["Crunches", "Ab Crunch Machine", "Air Bike", "Bent-knee Hip Raise", "Plank"],
+        "rounds": "2 Rounds",
+        "duration": "1min"
+      }
+    ]
+  },
+  {
+    "day": "Wednesday",
+    "name": "Chest and Triceps",
+    "exercises": [
+      {
+        "type": "cardio",
+        "exercises": ["Treadmill Jog"],
+        "duration": "10min",
+        "speed": "4 - 6mph"
+      },
+      {
+        "type": "set",
+        "exercises": ["Dumbbell Bench Press"],
+        "sets": [15, 12, 10, 10],
+        "rest": "45sec rest"
+      },
+      {
+        "type": "set",
+        "exercises": ["Decline Bench Press"],
+        "sets": [15, 12, 10, 10],
+        "rest": "45sec rest"
+      },
+      {
+        "type": "set",
+        "exercises": ["Dumbbell Incline Press"],
+        "sets": [15, 12, 10, 10],
+        "rest": "45sec rest"
+      },
+      {
+        "type": "set",
+        "exercises": ["Machine Flyes"],
+        "sets": [15, 12, 10, 10],
+        "rest": "45sec rest"
+      },
+      {
+        "type": "superset",
+        "exercises": ["Machine Flyes", "Tricep Dips"],
+        "sets": [15, 12, 10, 10],
+        "rest": "No rest"
+      },
+      {
+        "type": "superset",
+        "exercises": ["Rope Pushdown", "Reverse Pushdown"],
+        "sets": [12, 12, 12, 12],
+        "rest": "30sec rest"
+      }
+    ]
+  },
+  {
+    "day": "Wednesday",
+    "name": "Shoulders, Biceps + Abs",
+    "exercises": [
+      {
+        "type": "cardio",
+        "exercises": ["Treadmill Jog"],
+        "duration": "10min",
+        "speed": "4 - 6mph"
+      },
+      {
+        "type": "superset",
+        "exercises": ["Shoulder Barbbell Press", "Dumbbell Alternate Bicep Curl"],
+        "sets": [15, 12, 10, 10],
+        "rest": "30sec rest"
+      },
+      {
+        "type": "superset",
+        "exercises": ["Dumbbell Upright Row", "Hammer Curls"],
+        "sets": [15, 12, 10, 10],
+        "rest": "30sec rest"
+      },
+      {
+        "type": "superset",
+        "exercises": ["Side Cable Raise", "Incline Curl"],
+        "sets": [15, 12, 10, 10],
+        "rest": "30sec rest"
+      },
+      {
+        "type": "superset",
+        "exercises": ["Front Plate Raise", "Barbbell Curl"],
+        "sets": [15, 12, 10, 10],
+        "rest": "30sec rest"
+      },
+      {
+        "type": "circuit",
+        "name": "Basic Ab Circuit",
+        "target": "Core",
+        "exercises": ["Crunches", "Ab Crunch Machine", "Air Bike", "Bent-knee Hip Raise", "Plank"],
+        "rounds": "2 Rounds",
+        "duration": "1min"
+      }
+    ]
+  },
+  {
+    "day": "Friday",
+    "name": "Legs and Calves",
+    "exercises": [
+      {
+        "type": "cardio",
+        "exercises": ["Treadmill Jog"],
+        "duration": "10min",
+        "speed": "4 - 6mph"
+      },
+      {
+        "type": "superset",
+        "exercises": ["Leg Press", "Alternating Plate Calf Raise"],
+        "sets": [15, 12, 10, 10],
+        "rest": "No rest"
+      },
+      {
+        "type": "superset",
+        "exercises": ["Reverse Barbell Lunge", "Wall Squat"],
+        "sets": [15, 12, 10, 10],
+        "rest": "No rest"
+      },
+      {
+        "type": "superset",
+        "exercises": ["Smith Squat", "Seated Calf Raise"],
+        "sets": [15, 12, 10, 10],
+        "rest": "No rest"
+      },
+      {
+        "type": "superset",
+        "exercises": ["Leg Extensions", "Seated Calf Raise"],
+        "sets": [15, 12, 10, 10],
+        "rest": "No rest"
+      },
+      {
+        "type": "superset",
+        "exercises": ["Lying Leg Curls", "Dumbbell Calf Raise"],
         "sets": [15, 12, 10, 10],
         "rest": "No rest"
       },
