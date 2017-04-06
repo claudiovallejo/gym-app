@@ -122,16 +122,10 @@
         "rest": "45sec rest"
       },
       {
-        "type": "set",
-        "exercises": ["Machine Flyes"],
-        "sets": [15, 12, 10, 10],
-        "rest": "45sec rest"
-      },
-      {
         "type": "superset",
         "exercises": ["Machine Flyes", "Tricep Dips"],
         "sets": [15, 12, 10, 10],
-        "rest": "No rest"
+        "rest": "30sec rest"
       },
       {
         "type": "superset",
@@ -142,7 +136,7 @@
     ]
   },
   {
-    "day": "Wednesday",
+    "day": "Thursday",
     "name": "Shoulders, Biceps + Abs",
     "exercises": [
       {
