@@ -85,7 +85,7 @@
       },
       {
         "type": "cardio",
-        "exercises": ["Afternoon Jog"],
+        "exercises": ["Afternoon Run"],
         "duration": "30min",
         "speed": "4 - 6mph"
       }
@@ -177,7 +177,7 @@
       },
       {
         "type": "cardio",
-        "exercises": ["Afternoon Jog"],
+        "exercises": ["Afternoon Run"],
         "duration": "30min",
         "speed": "4 - 6mph"
       }
