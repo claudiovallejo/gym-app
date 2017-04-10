@@ -21,3 +21,17 @@ function toggle($element, classA, classB) {
   $element.classList.toggle(classA);
   $element.classList.toggle(classB);
 }
+//  Menu navigation
+const $menu = document.querySelector('[data-component="menu"]');
+//  Menu switch
+var menuSwitch = false;
+if ($menu) {
+  $menu.addEventListener('click', function(){
+    if (!menuSwitch) {
+      menuSwitch = true;
+    }
+    else {
+      menuSwitch = false;
+    }
+  });
+}
