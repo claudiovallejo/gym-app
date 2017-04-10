@@ -1,57 +1,7 @@
 [
   {
-    "day": "Monday",
-    "name": "Legs, Calves + Abs",
-    "exercises": [
-      {
-        "type": "cardio",
-        "exercises": ["Treadmill Jog"],
-        "duration": "10min",
-        "speed": "4 - 6mph"
-      },
-      {
-        "type": "superset",
-        "exercises": ["Smith Squat", "Seated Calf Raise"],
-        "sets": [15, 12, 10, 10],
-        "rest": "No rest"
-      },
-      {
-        "type": "superset",
-        "exercises": ["Leg Press", "Alternating Plate Calf Raise"],
-        "sets": [15, 12, 10, 10],
-        "rest": "No rest"
-      },
-      {
-        "type": "superset",
-        "exercises": ["Lying Leg Curls", "Dumbbell Calf Raise"],
-        "sets": [15, 12, 10, 10],
-        "rest": "No rest"
-      },
-      {
-        "type": "superset",
-        "exercises": ["Leg Extensions", "Seated Calf Raise"],
-        "sets": [15, 12, 10, 10],
-        "rest": "No rest"
-      },
-      {
-        "type": "superset",
-        "exercises": ["Reverse Barbell Lunge", "Wall Squat"],
-        "sets": [15, 12, 10, 10],
-        "rest": "No rest"
-      },
-      {
-        "type": "circuit",
-        "name": "Basic Ab Circuit",
-        "target": "Core",
-        "exercises": ["Crunches", "Ab Crunch Machine", "Air Bike", "Bent-knee Hip Raise", "Plank"],
-        "rounds": "2 Rounds",
-        "duration": "1min"
-      }
-    ]
-  },
-  {
-    "day": "Tuesday",
-    "name": "Lats and Back",
+    "day": "Monday April 10, 2017",
+    "name": "Lats, Back and Abs",
     "exercises": [
       {
         "type": "cardio",
@@ -94,8 +44,8 @@
     ]
   },
   {
-    "day": "Wednesday",
-    "name": "Chest and Triceps",
+    "day": "Tuesday April 11, 2017",
+    "name": "Chest, Triceps and Cardio",
     "exercises": [
       {
         "type": "cardio",
@@ -105,7 +55,7 @@
       },
       {
         "type": "set",
-        "exercises": ["Dumbbell Bench Press"],
+        "exercises": ["Barbell Incline Press"],
         "sets": [15, 12, 10, 10],
         "rest": "45sec rest"
       },
@@ -117,7 +67,7 @@
       },
       {
         "type": "set",
-        "exercises": ["Dumbbell Incline Press"],
+        "exercises": ["Smith Bench Press"],
         "sets": [15, 12, 10, 10],
         "rest": "45sec rest"
       },
@@ -132,12 +82,18 @@
         "exercises": ["Rope Pushdown", "Reverse Pushdown"],
         "sets": [12, 12, 12, 12],
         "rest": "30sec rest"
+      },
+      {
+        "type": "cardio",
+        "exercises": ["Afternoon Jog"],
+        "duration": "30min",
+        "speed": "4 - 6mph"
       }
     ]
   },
   {
-    "day": "Thursday",
-    "name": "Shoulders, Biceps + Abs",
+    "day": "Wednesday April 12, 2017",
+    "name": "Shoulders, Biceps and Abs",
     "exercises": [
       {
         "type": "cardio",
@@ -180,8 +136,8 @@
     ]
   },
   {
-    "day": "Friday",
-    "name": "Legs and Calves",
+    "day": "Thursday April 13, 2017",
+    "name": "Legs, Calves and Cardio",
     "exercises": [
       {
         "type": "cardio",
@@ -191,19 +147,19 @@
       },
       {
         "type": "superset",
+        "exercises": ["Smith Squat", "Seated Calf Raise"],
+        "sets": [15, 12, 10, 10],
+        "rest": "No rest"
+      },
+      {
+        "type": "superset",
         "exercises": ["Leg Press", "Alternating Plate Calf Raise"],
         "sets": [15, 12, 10, 10],
         "rest": "No rest"
       },
       {
         "type": "superset",
-        "exercises": ["Reverse Barbell Lunge", "Wall Squat"],
-        "sets": [15, 12, 10, 10],
-        "rest": "No rest"
-      },
-      {
-        "type": "superset",
-        "exercises": ["Smith Squat", "Seated Calf Raise"],
+        "exercises": ["Lying Leg Curls", "Dumbbell Calf Raise"],
         "sets": [15, 12, 10, 10],
         "rest": "No rest"
       },
@@ -215,7 +171,49 @@
       },
       {
         "type": "superset",
-        "exercises": ["Lying Leg Curls", "Dumbbell Calf Raise"],
+        "exercises": ["Reverse Barbell Lunge", "Wall Squat"],
+        "sets": [15, 12, 10, 10],
+        "rest": "No rest"
+      },
+      {
+        "type": "cardio",
+        "exercises": ["Afternoon Jog"],
+        "duration": "30min",
+        "speed": "4 - 6mph"
+      }
+    ]
+  },
+  {
+    "day": "Friday April 14, 2017",
+    "name": "Lats, Back and Abs",
+    "exercises": [
+      {
+        "type": "cardio",
+        "exercises": ["Treadmill Jog"],
+        "duration": "10min",
+        "speed": "4 - 6mph"
+      },
+      {
+        "type": "superset",
+        "exercises": ["Hammer Grip Pullups", "Back Extensions"],
+        "sets": [15, 12, 10, 10],
+        "rest": "No rest"
+      },
+      {
+        "type": "superset",
+        "exercises": ["V-Bar Pulldown", "Bent-Over Barbell Row"],
+        "sets": [15, 12, 10, 10],
+        "rest": "No rest"
+      },
+      {
+        "type": "superset",
+        "exercises": ["Cable Incline Pushdown", "Wide Rear Pulldown"],
+        "sets": [15, 12, 10, 10],
+        "rest": "No rest"
+      },
+      {
+        "type": "superset",
+        "exercises": ["Seated Cable Rows", "Standing Cable Row"],
         "sets": [15, 12, 10, 10],
         "rest": "No rest"
       },
