@@ -3,7 +3,7 @@
 <desc>Created using Figma</desc>
 <g id="Canvas" transform="translate(-708 316)" figma:type="canvas">
 <g id="arrow" figma:type="vector">
-<use xlink:href="#path0_stroke" transform="translate(709 -315)" fill="#FFFFFF"/>
+<use xlink:href="#path0_stroke" transform="translate(709 -315)" fill="#333333"/>
 </g>
 </g>
 <defs>
