@@ -25,7 +25,7 @@
       <%# End %>
       <% exercises.each_with_index do |exe, x| %>
         <div class="w-100 cf <% if x != el %>mb1<% end %>">
-          <a class="fl db ma0 roboto f1_125 fw5 black" href="<%= exe.source %>" target="_blank"><%= exe.name %></a>
+          <a class="fl db ma0 roboto f1_125 fw5 black bg-blue td-none" href="<%= exe.source %>" target="_blank"><%= exe.name %></a>
           <p class="fr ma0 roboto f1_125 fw5 dark-gray"><%= exercise.duration %></p>
         </div>
       <% end %>
