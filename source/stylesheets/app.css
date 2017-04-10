@@ -27,12 +27,7 @@ html { -webkit-font-smoothing: antialiased; }
 .red { color: #eb5757; }
 .purple { color: #bb6bd9; }
 /* Backgrounds */
-.bg-blue { background-color: #0080ff; }
-.bg-green { background-color: #219653; }
-.bg-silver { background-color: #eeeeee; }
-.bg-orange { background-color: #f2994a; }
-.bg-red { background-color: #eb5757; }
-.bg-purple { background-color: #bb6bd9; }
+.bg-blue { background-color: rgba(47, 128, 337, 0.15); }
 /* Shadows */
 .bs-0_12 { box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.16); }
 .bs-0_25 { box-shadow: 0 8px 16px rgba(0,0,0,0.10), 0 4px 4px rgba(0,0,0,0.05); }
@@ -193,3 +188,7 @@ html { -webkit-font-smoothing: antialiased; }
 .transform-tYm-0_5 { transform: translateY(-0.5rem); }
 .o0 { opacity: 0; }
 .o1 { opacity: 1; }
+/*
+  OTHER
+*/
+.c-pointer { cursor: pointer; }
