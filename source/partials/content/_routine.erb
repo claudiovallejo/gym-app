@@ -1,0 +1,12 @@
+<%# Config %>
+<% if r != rl %>
+  <% border = "bb b--light-gray" %>
+<% else %>
+  <% border = "" %>
+<% end %>
+<% href = "/#{week.title.parameterize}/#{routine.day.parameterize}" %>
+<%# End %>
+<a data-card="routine" class="function-cb duration1 property-all o0 transform-tYm4 db cf pv2 ph1 td-none <%= border %>" href="<%= href %>">
+  <h1 class="ma0 mb0_5 roboto fw5 f1_125 black" href="<%= href %>"><%= routine.name %></h1>
+  <h1 class="ma0 roboto fw4 f1_125 dark-gray td-none"><%= routine.day %></h1>
+</a>

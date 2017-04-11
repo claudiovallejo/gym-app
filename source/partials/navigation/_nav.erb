@@ -1,0 +1,27 @@
+<%# Config %>
+<% sections = [] %>
+<% data.routines.each do |id, routine| %>
+  <% sections.push(routine) %>
+<% end %>
+<%# End %>
+<nav data-component="nav" class="function-cb duration0_3 property-transform transform-tY100 fixed z-5 pv2 bg-white" style="bottom: 0; right: 0; left: 0;">
+  <%# Config %>
+  <% sl = sections.length - 1 %>
+  <%# End %>
+  <% sections.each_with_index do |section, s| %>
+    <%# Config %>
+    <% if section.title === "This Week" %>
+      <% href = "/" %>
+    <% else %>
+      <% href = "#{section.title.parameterize}" %>
+    <% end %>
+    <% if s != sl %>
+      <% margin = "mb2" %>
+    <% else %>
+      <% margin = "" %>
+    <% end %>
+    <%# End %>
+    <a class="db ma0 <%= margin %> pl1 roboto f1_125 black td-none" href="<%= href %>"><%= section.title %></a>
+  <% end %>
+</nav>
+<div data-component="cover" class="function-cb duration0_3 property-opacity o0 pe-none fixed z-4 top-0 right-0 left-0 w-100 h-100 bg-black-50"></div>
