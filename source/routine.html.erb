@@ -1,6 +1,10 @@
 <%# Config %>
 <% routine = locals[:routine] %>
 <%# End %>
+<%# Component: Navigation %>
+<%= partial "partials/navigation/nav" %>
+<%# Component: Header %>
+<%= partial("partials/navigation/header", :locals => { :week => week, :routine => routine }) %>
 <main data-meal="container" class="mt53x">
   <%# Config %>
   <% el = routine.exercises.length - 1 %>
