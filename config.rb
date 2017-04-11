@@ -8,7 +8,7 @@ page '/*.json', layout: false
 page '/*.txt', layout: false
 
 # With alternative layout
-page "index.html", layout: :main
+page "list.html", layout: :main
 page "routine.html", layout: :routine
 
 # Activate directory indexes
@@ -24,8 +24,17 @@ end
 ###
 
 # Daily routine pages
-data.routines.each do |routine|
-  proxy "/#{routine.day.parameterize}/index.html", "/routine.html", :locals => { :routine => routine }, :ignore => true
+data.routines.each do |id, week|
+  # This Week -> index.html
+  if week.title === "This Week"
+    proxy "/index.html", "/list.html", :locals => { :week => week }, :ignore => true
+  # Is not This Week -> #{title.parameterize}.html
+  else
+    proxy "/#{week.title.parameterize}/index.html", "/list.html", :locals => { :week => week }, :ignore => true
+  end
+  week.routines.each do |routine|
+    proxy "/#{week.title.parameterize}/#{routine.day.parameterize}/index.html", "/routine.html", :locals => { :week => week, :routine => routine }, :ignore => true
+  end
 end
 
 ###
