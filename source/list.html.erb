@@ -1,0 +1,14 @@
+<%# Config %>
+<% week = locals[:week] %>
+<% rl = week.routines.length - 1 %>
+<%# End %>
+<%# Component: Navigation %>
+<%= partial "partials/navigation/nav" %>
+<%# Component: Header %>
+<%= partial("partials/navigation/about", :locals => { :title => week.title }) %>
+<main class="mt53x">
+  <% week.routines.each_with_index do |routine, r| %>
+    <%# Component: Routine %>
+    <%= partial("partials/content/routine", :locals => { :r => r, :rl => rl, :week => week, :routine => routine }) %>
+  <% end %>
+</main>
