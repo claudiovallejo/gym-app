@@ -26,17 +26,17 @@
   },
   {
     "name": "Dumbbell Incline Press",
-    "target": "Upper Chest",
+    "target": "Chest",
     "source": "http://www.bodybuilding.com/exercises/detail/view/name/incline-dumbbell-press"
   },
   {
     "name": "Barbell Incline Press",
-    "target": "Upper Chest",
+    "target": "Chest",
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/barbell-incline-bench-press-medium-grip"
   },
   {
     "name": "Decline Bench Press",
-    "target": "Lower Chest",
+    "target": "Chest",
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/decline-barbell-bench-press"
   },
   {
@@ -61,7 +61,7 @@
   },
   {
     "name": "Decline Dumbbell Press",
-    "target": "Lower Chest",
+    "target": "Chest",
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/decline-dumbbell-bench-press"
   },
   {
@@ -126,22 +126,22 @@
   },
   {
     "name": "Wide Rear Pulldown",
-    "target": "Upper Back",
+    "target": "Back",
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/wide-grip-pulldown-behind-the-neck"
   },
   {
     "name": "Standing Cable Row",
-    "target": "Upper Back",
+    "target": "Back",
     "source": "https://www.youtube.com/watch?v=KcySmtjXERU"
   },
   {
     "name": "Bent-Over Barbell Row",
-    "target": "Middle Back",
+    "target": "Back",
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/bent-over-barbell-row"
   },
   {
     "name": "Dumbbell Incline Row",
-    "target": "Middle Back",
+    "target": "Back",
     "source": "https://www.bodybuilding.com/exercises/detail/view/name/dumbbell-incline-row"
   },
   {
@@ -215,18 +215,23 @@
     "source": "https://www.bodybuilding.com/exercises/detail/view/name/standing-olympic-plate-hand-squeeze"
   },
   {
-    "name": "Leg Press",
-    "target": "Leg",
-    "source": "https://www.bodybuilding.com/exercises/main/popup/name/leg-press"
-  },
-  {
     "name": "Reverse Barbell Lunge",
-    "target": "Leg",
+    "target": "Hamstring",
     "source": "https://www.bodybuilding.com/exercises/detail/view/name/barbell-reverse-lunge"
   },
   {
+    "name": "Lying Leg Curls",
+    "target": "Hamstring",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/lying-leg-curls"
+  },
+  {
+    "name": "Leg Press",
+    "target": "Quad",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/leg-press"
+  },
+  {
     "name": "Smith Squat",
-    "target": "Leg",
+    "target": "Quad",
     "source": "https://www.bodybuilding.com/exercises/detail/view/name/smith-machine-squat"
   },
   {
@@ -238,11 +243,6 @@
     "name": "Leg Extensions",
     "target": "Quad",
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/leg-extensions"
-  },
-  {
-    "name": "Lying Leg Curls",
-    "target": "Hamstring",
-    "source": "https://www.bodybuilding.com/exercises/main/popup/name/lying-leg-curls"
   },
   {
     "name": "Alternating Plate Calf Raise",
