@@ -23,14 +23,26 @@ function toggle($element, classA, classB) {
 }
 //  Menu navigation
 const $menu = document.querySelector('[data-component="menu"]');
+const $nav = document.querySelector('[data-component="nav"]');
+const $cover = document.querySelector('[data-component="cover"]');
 //  Menu switch
 var menuSwitch = false;
 if ($menu) {
   $menu.addEventListener('click', function(){
     if (!menuSwitch) {
+      toggle($nav, 'transform-tY0', 'transform-tY100');
+      toggle($cover, 'pe-none', 'pe-auto');
+      toggle($cover, 'o0', 'o1');
       menuSwitch = true;
     }
-    else {
+  });
+}
+if ($cover) {
+  $cover.addEventListener('click', function(){
+    if (menuSwitch) {
+      toggle($nav, 'transform-tY0', 'transform-tY100');
+      toggle($cover, 'pe-none', 'pe-auto');
+      toggle($cover, 'o0', 'o1');
       menuSwitch = false;
     }
   });
