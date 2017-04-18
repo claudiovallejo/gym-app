@@ -16,21 +16,21 @@ gulp.task('concat-css', function () {
 
 //  Minify stylesheets
 gulp.task('minify-css', function () {
-  gulp.src('build/stylesheets/site.css')
+  gulp.src('build/stylesheets/app.css')
     .pipe(cssmin())
     .pipe(gulp.dest('build/stylesheets/'));
 });
 
 // Gzip stylesheets
 gulp.task('compress-css', function() {
-  gulp.src('build/stylesheets/site.css')
+  gulp.src('build/stylesheets/app.css')
 	.pipe(gzip())
 	.pipe(gulp.dest('build/stylesheets/'));
 });
 
 //  Ignore normalize.css + tachyons.css
 gulp.task('ignore-css', function () {
-  return gulp.src(['build/stylesheets/normalize.css', 'build/stylesheets/tachyons.css'], {read: false})
+  return gulp.src('build/stylesheets/normalize.css', {read: false})
     .pipe(clean());
 });
 
@@ -50,14 +50,14 @@ gulp.task('compress-html', function() {
 
 //  Minify javascripts
 gulp.task('minify-js', function() {
-  gulp.src('build/javascripts/site.js')
+  gulp.src('build/javascripts/app.js')
   .pipe(uglify())
   .pipe(gulp.dest('build/javascripts/'))
 });
 
 //  Gzip javascripts
 gulp.task('compress-js', function(){
-  gulp.src('build/javascripts/site.js')
+  gulp.src('build/javascripts/app.js')
   .pipe(gzip())
   .pipe(gulp.dest('build/javascripts/'))
 });
