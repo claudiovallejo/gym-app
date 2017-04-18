@@ -1,4 +1,4 @@
-<nav data-component="nav" class="function-cb duration0_3 property-transform transform-tY100 fixed z-5 bottom-0 left-0 right-0 pv2 bg-white">
+<nav data-component="nav" class="ttf-cubic_bezier td-0_3s tp-transform transform-tY100p p-fixed zi-5 b-0r l-0r r-0r pv-2r bgc-white">
   <%# Config %>
   <% rl = data.routines.length %>
   <%# End %>
@@ -11,12 +11,12 @@
       <% href = "#{routine.title.parameterize}" %>
     <% end %>
     <% if r != rl %>
-      <% margin = "mb2" %>
+      <% margin = "mb-2r" %>
     <% else %>
       <% margin = "" %>
     <% end %>
     <%# End %>
-    <a class="db ma0 <%= margin %> pl1 roboto f1_125 black td-none" href="<%= href %>"><%= routine.title %></a>
+    <a class="d-block ma-0r <%= margin %> pl-1r ff-roboto fw-400 fs-1_125r c-black td-none" href="<%= href %>"><%= routine.title %></a>
   <% end %>
 </nav>
-<div data-component="cover" class="function-cb duration0_3 property-opacity o0 pe-none fixed z-4 top-0 right-0 left-0 w-100 h-100 bg-black-50"></div>
+<div data-component="cover" class="ttf-cubic_bezier td-0_3s tp-opacity o-0 pe-none p-fixed zi-4 t-0r r-0r l-0r w-100p h-100p bgc-black-50"></div>
