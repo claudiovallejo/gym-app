@@ -30,6 +30,7 @@ if ($menu) {
     }
   });
 }
+//  Menu cover
 if ($cover) {
   $cover.addEventListener('click', function(){
     if (menuSwitch) {
