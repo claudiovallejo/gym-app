@@ -22,7 +22,7 @@
     <%# Superset Exercise %>
     <% if exercise.type === "superset" %>
       <%= partial("partials/content/superset", :locals => { :exercise => exercise, :c => c, :e => e, :el => el, :color => routine.color }) %>
-      <% c = c + 1 %>
+      <% c = c + exercise.exercises.length - 1 %>
     <% end %>
     <%# Circuit Exercise %>
     <% if exercise.type === "circuit" %>
