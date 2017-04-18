@@ -115,6 +115,16 @@
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/seated-cable-rows"
   },
   {
+    "name": "Seated Machine Rows",
+    "target": "Lat",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/leverage-iso-row"
+  },
+  {
+    "name": "One-arm Dumbbell Rows",
+    "target": "Lat",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/one-arm-dumbbell-row"
+  },
+  {
     "name": "Close Grip Machine Pulldown",
     "target": "Lat",
     "source": "https://previews.123rf.com/images/alexandermakatserchyk/alexandermakatserchyk1606/alexandermakatserchyk160600005/60334063-Grip-machine-lat-pulldown-Exercising-for-bodybuilding-Target-muscles-are-marked-in-red-3D-illustrati-Stock-Illustration.jpg"
@@ -143,6 +153,11 @@
     "name": "Dumbbell Incline Row",
     "target": "Back",
     "source": "https://www.bodybuilding.com/exercises/detail/view/name/dumbbell-incline-row"
+  },
+  {
+    "name": "Reverse Cable Flyes",
+    "target": "Back",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/cable-rear-delt-fly"
   },
   {
     "name": "Back Extensions",
@@ -288,5 +303,20 @@
     "name": "Jackknife Situp",
     "target": "Core",
     "source": "https://www.bodybuilding.com/exercises/detail/view/name/jackknife-sit-up"
+  },
+  {
+    "name": "Cocoons",
+    "target": "Core",
+    "source": "https://www.bodybuilding.com/exercises/detail/view/name/cocoons"
+  },
+  {
+    "name": "Ab Rollers",
+    "target": "Core",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/ab-roller"
+  },
+  {
+    "name": "Hanging Leg Raises",
+    "target": "Core",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/hanging-leg-raise"
   }
 ]
