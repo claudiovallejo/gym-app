@@ -141,7 +141,7 @@
 .o-1 { opacity: 1; }
 /* Transform */
 .transform-tY4r { transform: translateY(4rem); }
-.transform-tY0r { transform: translateY(0rem); }
+.transform-tY0 { transform: translateY(0); }
 .transform-tY100p { transform: translateY(100%); }
 /*
   OTHER

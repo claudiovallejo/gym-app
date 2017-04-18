@@ -13,7 +13,7 @@ function loadElements($elements) {
   for (var i = 0; i < $elements.length; i++) {
     $elements[i].setAttribute('style', 'transition-delay: ' + ((i+1)*0.15) + 's;');
     toggle($elements[i], ['o-0', 'o-1']);
-    toggle($elements[i], ['transform-tY0r', 'transform-tY4r']);
+    toggle($elements[i], ['transform-tY0', 'transform-tY4r']);
   };
 }
 //  Menu navigation
@@ -25,8 +25,9 @@ var menuSwitch = false;
 if ($menu) {
   $menu.addEventListener('click', function(){
     if (!menuSwitch) {
-      toggle($nav, ['transform-tY0r', 'transform-tY100p']);
-      toggle($cover, ['pe-none', 'pe-auto', 'o-0', 'o-1']);
+      toggle($nav, ['transform-tY0', 'transform-tY100p']);
+      toggle($cover, ['o-0', 'o-1']);
+      toggle($cover, ['pe-none', 'pe-auto']);
       menuSwitch = true;
     }
   });
@@ -35,8 +36,10 @@ if ($menu) {
 if ($cover) {
   $cover.addEventListener('click', function(){
     if (menuSwitch) {
-      toggle($nav, ['transform-tY0r', 'transform-tY100p']);
-      toggle($cover, ['pe-none', 'pe-auto', 'o-0', 'o-1']);
+      toggle($nav, ['
+      ', 'transform-tY100p']);
+      toggle($cover, ['o-0', 'o-1']);
+      toggle($cover, ['pe-none', 'pe-auto']);
       menuSwitch = false;
     }
   });
