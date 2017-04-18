@@ -1,3 +1,127 @@
+/*
+  TYPOGRAPHY
+  - Font Family
+  - Font Weights
+  - Font Sizes
+  - Colors
+  - Text Decoration
+*/
+/* Font Family */
+.ff-roboto { font-family: 'Roboto', sans-serif; }
+/* Font Weights */
+.fw-400 { font-weight: 400; }
+.fw-500 { font-weight: 500; }
+/* Font Sizes */
+.fs-1r { font-size: 1rem; }
+.fs-1_125r { font-size: 1.125rem; }
+/* Colors */
+.c-black { color: #000000; }
+.c-dark_gray { color: #828282; }
+/* Text Decoration */
+.td-none { text-decoration: none; }
+/*
+  BACKGROUNDS
+*/
+.bgc-gray { background-color: #777777; }
+.bgc-blue { background-color: rgba(47, 128, 337, 0.15); }
+.bgc-white { background-color: #ffffff; }
+/*
+  BORDERS
+  - Border Styles
+  - Border Widths
+  - Border Colors
+*/
+/* Border Styles */
+.bbs-solid { border-bottom-style: solid }
+/* Border Widths */
+.bbw-1x { border-bottom-width: 1px; }
+/* Border Colors */
+.bc-light_gray { border-color: #eeeeee; }
+/*
+   CLEARFIX
+*/
+/* Nicolas Gallaghers Clearfix solution
+   Ref: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+/*
+  DISPLAY
+*/
+.d-block { display: block; }
+/*
+  FLOATS
+*/
+.f-right { float: right; _display: inline; }
+.f-left { float: left; _display: inline; }
+/*
+  POSITIONING
+  - Position
+  - Left
+  - Z-index
+  - Flexbox
+*/
+/* Position */
+.p-relative { position: relative; }
+/* Left */
+.l-0_3r { left: 0.3rem; }
+/* Z-index */
+.zi-1 { z-index: 1; }
+/* Flexbox */
+.d-inline_flex { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; }
+.jc-space_between { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+/*
+  SPACING
+  - Margin
+  - Padding
+*/
+/* Margin */
+.ma-0r { margin: 0rem; }
+.mt-53x { margin-top: 53px; }
+.mb-0_25r { margin-bottom: 0.25rem; }
+.mb-0_5r { margin-bottom: 0.5rem; }
+.mb-1r { margin-bottom: 1rem; }
+.mb-1_5r { margin-bottom: 1.5rem; }
+.mb-2r { margin-bottom: 2rem; }
+/* Padding */
+.pv-2r { padding-top: 2rem; padding-bottom: 2rem; }
+.ph-1r { padding-right: 1rem; padding-left: 1rem; }
+.pr-1r { padding-right: 1rem; }
+.pl-1r { padding-left: 1rem; }
+/*
+  MEASURES
+  - Widths
+  - Heights
+*/
+/* Widths */
+.w-1x { width: 1px; }
+.w-10p { width: 10%; }
+.w-90p { width: 90%; }
+.w-100p { width: 100%; }
+/* Heights */
+.h-1x { height: 1px; }
+.h-2_35r { height: 2.35rem; }
+/*
+  TRANSITIONS
+  - Functions
+  - Durations
+  - Properties
+  - Opacity
+  - Transforms
+*/
+/* Functions */
+.ttf-cubic_bezier { -webkit-transition-timing-function: cubic-bezier(.25,.8,.25,1); transition-timing-function: cubic-bezier(.25,.8,.25,1); }
+/* Durations */
+.td-1s { -webkit-transition-duration: 1s; transition-duration: 1s; }
+/* Properties */
+.tp-all { -webkit-transition-property: all; transition-property: all; }
+/* Opacity */
+.o-0 { opacity: 0; }
+.o-1 { opacity: 1; }
+/* Transform */
+.transform-tY4r { transform: translateY(4rem); }
+.transform-tY0p { transform: translateY(0%); }
+.transform-tY100p { transform: translateY(100%); }
 /* General */
 html { -webkit-font-smoothing: antialiased; }
 /* Typography */
