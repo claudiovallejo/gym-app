@@ -140,9 +140,9 @@
 .o-0 { opacity: 0; }
 .o-1 { opacity: 1; }
 /* Transform */
-.t-translateY4r { transform: translateY(4rem); }
-.t-translateY0 { transform: translateY(0); }
-.t-translateY100p { transform: translateY(100%); }
+.t-translateY4r { -webkit-transform: translateY(4rem); transform: translateY(4rem); }
+.t-translateY0 { -webkit-transform: translateY(0); transform: translateY(0); }
+.t-translateY100p { -webkit-transform: translateY(100%); transform: translateY(100%); }
 /*
   OTHER
   - General
