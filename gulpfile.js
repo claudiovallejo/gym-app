@@ -10,7 +10,7 @@ var runSequence = require('run-sequence');
 //  Concatenate stylesheets -> site.css
 gulp.task('concat-css', function () {
   return gulp.src('source/stylesheets/*.css')
-    .pipe(concatcss("stylesheets/site.css"))
+    .pipe(concatcss("stylesheets/app.css"))
     .pipe(gulp.dest('build/'));
 });
 
