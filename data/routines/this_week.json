@@ -58,6 +58,42 @@
           "duration": "1min"
         }
       ]
+    },
+    {
+      "day": "Tuesday April 18, 2017",
+      "name": "Shoulders, Arms and Cardio",
+      "exercises": [
+        {
+          "type": "superset",
+          "exercises": ["Shoulder Barbbell Press", "Barbbell Curl", "Tricep Dips"],
+          "sets": [12, 12, 10, 10],
+          "rest": "No rest"
+        },
+        {
+          "type": "superset",
+          "exercises": ["Alternating Deltoid Raise", "Hammer Curls", "Seated Tricep Press"],
+          "sets": [12, 12, 10, 10],
+          "rest": "No rest"
+        },
+        {
+          "type": "superset",
+          "exercises": ["Front Plate Raise", "Incline Curl", "Rope Pushdown"],
+          "sets": [12, 12, 10, 10],
+          "rest": "No rest"
+        },
+        {
+          "type": "superset",
+          "exercises": ["Standing Dumbbell Press", "Standing Cable Curl", "Lying Dumbbell Extension"],
+          "sets": [12, 12, 10, 10],
+          "rest": "No rest"
+        },
+        {
+          "type": "cardio",
+          "exercises": ["Afternoon Run"],
+          "duration": "30min",
+          "speed": "4 - 6mph"
+        }
+      ]
     }
   ]
 }
