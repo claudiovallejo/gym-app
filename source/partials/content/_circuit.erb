@@ -3,30 +3,41 @@
 <% exercise.exercises.each do |exe| %>
   <% exercises.push(fetch_exercise exe) %>
 <% end %>
+<%# Border %>
+<% if e != el %>
+  <% border = "bbs-solid bbw-1x bc-light_gray" %>
+<% else %>
+  <% border = "" %>
+<% end %>
 <%# End %>
-<article data-value="single" class="function-cb duration1 property-all o0 transform-tYm4 cf pv2 ph1 <% if e != el %>bb b--light-gray<% end %>">
-  <div class="fl w-10">
-    <h1 class="ma0 roboto f1_125 fw5 black"><%= c %></h1>
+<article data-value="single" class="ttf-cubic_bezier td-1s tp-all o-0 transform-tY4r clearfix pv-2r ph-1r <%= border %>">
+  <div class="f-leftl w-10p">
+    <h1 class="ma-0r ff-roboto fw-500 fs-1_125r c-black"><%= c %></h1>
   </div>
-  <header class="fl w-90" style="margin-bottom: 1.5rem;">
-    <div class="cf" style="margin-bottom: 0.25rem;">
-      <h1 class="fl ma0 roboto f1_125 fw5 black"><%= exercise.name %></h1>
-      <h1 class="fr ma0 roboto f1_125 fw5 black"><%= exercise.rounds %></h1>
+  <header class="f-left w-90p mb-1_5r">
+    <div class="clearfix mb-0_25r">
+      <h1 class="f-left ma-0r ff-roboto fw-500 fs-1_125r c-black"><%= exercise.name %></h1>
+      <h1 class="f-right ma-0r ff-roboto fw-500 fs-1_125r c-black"><%= exercise.rounds %></h1>
     </div>
-    <div class="cf">
-      <h3 class="fl ma0 roboto f1 fw5 dark-gray"><%= exercise.target %> Exercises</h3>
+    <div class="clearfix">
+      <h3 class="f-left ma-0r ff-roboto fw-500 fs-1r c-dark_gray"><%= exercise.target %> Exercises</h3>
     </div>
   </header>
-  <div class="cf">
-    <div class="fl w-10" style="height: 1px;"></div>
-    <div class="fl w-90">
+  <div class="clearfix">
+    <div class="f-left w-10p h-1x"></div>
+    <div class="f-left w-90p">
       <%# Config %>
       <% el = exercises.length - 1 %>
+      <%# Margin %>
+      <% if x != el %>
+        <% margin = "mb-1r" %>
+      <% else %>
+      <% end %>
       <%# End %>
       <% exercises.each_with_index do |exe, x| %>
-        <div class="w-100 cf <% if x != el %>mb1<% end %>">
-          <a class="fl db ma0 roboto f1_125 fw5 black bg-blue td-none" href="<%= exe.source %>" target="_blank"><%= exe.name %></a>
-          <p class="fr ma0 roboto f1_125 fw5 dark-gray"><%= exercise.duration %></p>
+        <div class="w-100p clearfix <%= margin %>">
+          <a class="f-left d-block ma-0r ff-roboto fw-500 fs-1_125r c-black bgc-blue td-none" href="<%= exe.source %>" target="_blank"><%= exe.name %></a>
+          <p class="f-right ma-0r ff-roboto fw-500 fs-1_125r c-dark_gray"><%= exercise.duration %></p>
         </div>
       <% end %>
     </div>
