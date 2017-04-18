@@ -7,9 +7,9 @@ var menuSwitch = false;
 if ($menu) {
   $menu.addEventListener('click', function(){
     if (!menuSwitch) {
-      toggle($nav, ['t-translateY0', 't-translateY100p']);
-      toggle($cover, ['o-0', 'o-1']);
-      toggle($cover, ['pe-none', 'pe-auto']);
+      toggle($nav, 't-translateY0', 't-translateY100p');
+      toggle($cover, 'o-0', 'o-1');
+      toggle($cover, 'pe-none', 'pe-auto');
       menuSwitch = true;
     }
   });
@@ -18,16 +18,15 @@ if ($menu) {
 if ($cover) {
   $cover.addEventListener('click', function(){
     if (menuSwitch) {
-      toggle($nav, ['t-translateY0', 't-translateY100p']);
-      toggle($cover, ['o-0', 'o-1']);
-      toggle($cover, ['pe-none', 'pe-auto']);
+      toggle($nav, 't-translateY0', 't-translateY100p');
+      toggle($cover, 'o-0', 'o-1');
+      toggle($cover, 'pe-none', 'pe-auto');
       menuSwitch = false;
     }
   });
 }
 //  Toggle element classes
-function toggle($element, classes) {
-  classes.forEach(function(className){
-    $element.classList.toggle(className);
-  });
+function toggle($element, classA, classB) {
+  $element.classList.toggle(classA);
+  $element.classList.toggle(classB);
 }
