@@ -1,12 +1,14 @@
 <%# Config %>
+<%# Border %>
 <% if r != rl %>
-  <% border = "bb b--light-gray" %>
+  <% border = "bbs-solid bbw-1x bc-light_gray" %>
 <% else %>
   <% border = "" %>
 <% end %>
+<%# URL Path %>
 <% href = "/#{week.title.parameterize}/#{routine.day.parameterize}" %>
 <%# End %>
-<a data-card="routine" class="function-cb duration1 property-all o0 transform-tYm4 db cf pv2 ph1 td-none <%= border %>" href="<%= href %>">
-  <h1 class="ma0 mb0_5 roboto fw5 f1_125 black" href="<%= href %>"><%= routine.name %></h1>
-  <h1 class="ma0 roboto fw4 f1_125 dark-gray td-none"><%= routine.day %></h1>
+<a data-card="routine" class="ttf-cubic_bezier td-1s tp-all o-0 transform-tY4r d-block clearfix pv-2r ph-1r td-none <%= border %>" href="<%= href %>">
+  <h1 class="ma-0r mb-0_5r ff-roboto fw-500 fs-1_125r c-black" href="<%= href %>"><%= routine.name %></h1>
+  <h1 class="ma-0r ff-roboto fw-400 fs-1_125r c-dark_gray td-none"><%= routine.day %></h1>
 </a>
