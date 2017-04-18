@@ -21,7 +21,7 @@
     <% exercise.exercises.each_with_index do |exe, i| %>
       <%# Config %>
       <%# Exercise %>
-      <% e = fetch_exercise exe %>
+      <% x = fetch_exercise exe %>
       <%# Spacing %>
       <% if i != l %>
         <% spacing = "mb2" %>
@@ -31,12 +31,16 @@
       <%# End %>
       <div class="<%= spacing %>">
         <div class="cf" style="margin-bottom: 0.25rem;">
-          <a class="fl ma0 roboto f1_125 fw5 black bg-blue td-none" href="<%= e.source %>" target="_blank"><%= e.name %></a>
-          <h1 class="fr ma0 roboto f1_125 fw5 black"><%= sl + 1 %> Supersets</h1>
+          <a class="fl ma0 roboto f1_125 fw5 black bg-blue td-none" href="<%= x.source %>" target="_blank"><%= x.name %></a>
+          <% if i === 0 %>
+            <h1 class="fr ma0 roboto f1_125 fw5 black"><%= sl + 1 %> Supersets</h1>
+          <% end %>
         </div>
         <div class="cf">
-          <h3 class="fl ma0 roboto f1 fw5 dark-gray"><%= e.target %> Exercise</h3>
-          <h3 class="fr ma0 roboto f1 fw5 dark-gray"><%= exercise.rest %></h3>
+          <h3 class="fl ma0 roboto f1 fw5 dark-gray"><%= x.target %> Exercise</h3>
+          <% if i === 0 %>
+            <h3 class="fr ma0 roboto f1 fw5 dark-gray"><%= exercise.rest %></h3>
+          <% end %>
         </div>
       </div>
     <% end %>
