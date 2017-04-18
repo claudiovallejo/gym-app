@@ -8,7 +8,7 @@
     <% if routine.title === "This Week" %>
       <% href = "/" %>
     <% else %>
-      <% href = "#{routine.title.parameterize}" %>
+      <% href = "/#{routine.title.parameterize}" %>
     <% end %>
     <% if r != rl %>
       <% margin = "mb-2r" %>
