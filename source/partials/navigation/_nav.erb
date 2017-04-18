@@ -1,27 +1,22 @@
 <%# Config %>
-<% sections = [] %>
-<% data.routines.each do |id, routine| %>
-  <% sections.push(routine) %>
-<% end %>
+<% rl = data.routines.length %>
 <%# End %>
 <nav data-component="nav" class="function-cb duration0_3 property-transform transform-tY100 fixed z-5 pv2 bg-white" style="bottom: 0; right: 0; left: 0;">
-  <%# Config %>
-  <% sl = sections.length - 1 %>
-  <%# End %>
-  <% sections.each_with_index do |section, s| %>
+  <% (1..rl).each do |r| %>
+    <% routine = fetch_order r %>
     <%# Config %>
-    <% if section.title === "This Week" %>
+    <% if routine.title === "This Week" %>
       <% href = "/" %>
     <% else %>
-      <% href = "#{section.title.parameterize}" %>
+      <% href = "#{routine.title.parameterize}" %>
     <% end %>
-    <% if s != sl %>
+    <% if r != rl %>
       <% margin = "mb2" %>
     <% else %>
       <% margin = "" %>
     <% end %>
     <%# End %>
-    <a class="db ma0 <%= margin %> pl1 roboto f1_125 black td-none" href="<%= href %>"><%= section.title %></a>
+    <a class="db ma0 <%= margin %> pl1 roboto f1_125 black td-none" href="<%= href %>"><%= routine.title %></a>
   <% end %>
 </nav>
 <div data-component="cover" class="function-cb duration0_3 property-opacity o0 pe-none fixed z-4 top-0 right-0 left-0 w-100 h-100 bg-black-50"></div>
