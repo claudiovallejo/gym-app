@@ -65,7 +65,7 @@
       "exercises": [
         {
           "type": "superset",
-          "exercises": ["Shoulder Barbbell Press", "Barbbell Curl", "Tricep Dips"],
+          "exercises": ["Smith Overhead Press", "Barbbell Curl", "Tricep Dips"],
           "sets": [12, 12, 10, 10],
           "rest": "No rest"
         },
