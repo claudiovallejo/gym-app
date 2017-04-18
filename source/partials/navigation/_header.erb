@@ -5,14 +5,14 @@
   <% href = "/#{week.title.parameterize}" %>
 <% end %>
 <%# End %>
-<nav class="fixed z-1 top-0 right-0 left-0 w-100 cf ma0 pv1 bg-white bb b--light-gray">
-  <div class="fl w-10 pl1">
-    <a href="<%= href %>"><%= image_tag "arrow.svg", :class => "pt4x" %></a>
+<nav class="p-fixed zi-1 t-0r r-0r l-0r w-100p clearfix ma-0r pv-1r bgc-white bbs-solid bbw-1x bc-light_gray">
+  <div class="f-left w-10p pl-1r">
+    <a href="<%= href %>"><%= image_tag "arrow.svg", :class => "pt-4x" %></a>
   </div>
-  <div class="fl w-80 ph1">
-    <h1 class="fl ma0 roboto fw5 f1_125 black"><%= routine.name %></h1>
+  <div class="f-left w-80p ph-1r">
+    <h1 class="f-left ma-0r ff-roboto fw-500 fs-1_125r c-black"><%= routine.name %></h1>
   </div>
-  <div class="fl w-10 pr1">
-    <img data-component="menu" class="fr c-pointer" src="/images/menu.svg">
+  <div class="f-left w-10p pr-1r">
+    <img data-component="menu" class="f-right c-pointer" src="/images/menu.svg">
   </div>
 </nav>
