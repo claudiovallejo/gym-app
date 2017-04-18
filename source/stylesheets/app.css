@@ -50,6 +50,7 @@
   DISPLAY
 */
 .d-block { display: block; }
+.d-inline_block { display: inline-block; }
 /*
   FLOATS
 */
