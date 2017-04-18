@@ -165,6 +165,11 @@
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/hyperextensions-back-extensions"
   },
   {
+    "name": "Standing Dumbbell Press",
+    "target": "Deltoid",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/standing-dumbbell-press-"
+  },
+  {
     "name": "Shoulder Barbbell Press",
     "target": "Deltoid",
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/barbell-shoulder-press"
@@ -200,6 +205,11 @@
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/front-plate-raise"
   },
   {
+    "name": "Alternating Deltoid Raise",
+    "target": "Deltoid",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/alternating-deltoid-raise"
+  },
+  {
     "name": "Incline Curl",
     "target": "Bicep",
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/incline-dumbbell-curl"
@@ -223,6 +233,11 @@
     "name": "Barbbell Curl",
     "target": "Bicep",
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/barbell-curl"
+  },
+  {
+    "name": "Standing Cable Curl",
+    "target": "Bicep",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/standing-biceps-cable-curl"
   },
   {
     "name": "Plate Hand Squeeze",
