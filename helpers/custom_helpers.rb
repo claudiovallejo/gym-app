@@ -21,4 +21,15 @@ module CustomHelpers
     end
     exercises
   end
+  # Fetch Exercises by Order
+  # Accepts a routines order key and returns the routine object
+  def fetch_order int
+    routine = ""
+    data.routines.each do |id, r|
+      if r.order === int
+        routine = r
+      end
+    end
+    routine
+  end
 end
