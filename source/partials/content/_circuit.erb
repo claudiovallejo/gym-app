@@ -28,13 +28,15 @@
     <div class="f-left w-90p">
       <%# Config %>
       <% el = exercises.length - 1 %>
-      <%# Margin %>
-      <% if x != el %>
-        <% margin = "mb-1r" %>
-      <% else %>
-      <% end %>
       <%# End %>
       <% exercises.each_with_index do |exe, x| %>
+        <%# Config %>
+        <% if x != el %>
+          <% margin = "mb-1r" %>
+        <% else %>
+          <% margin = "" %>
+        <% end %>
+        <%# End %>
         <div class="w-100p clearfix <%= margin %>">
           <a class="f-left d-block ma-0r ff-roboto fw-500 fs-1_125r c-black bgc-blue td-none" href="<%= exe.source %>" target="_blank"><%= exe.name %></a>
           <p class="f-right ma-0r ff-roboto fw-500 fs-1_125r c-dark_gray"><%= exercise.duration %></p>
