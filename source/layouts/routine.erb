@@ -7,9 +7,9 @@
     <%= partial "partials/meta/social" %>
     <%= partial "partials/meta/favicons" %>
     <%= partial "partials/meta/analytics" %>
-    <title><%= locals[:routine].day %> | <%= locals[:routine].name %></title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
     <%= stylesheet_link_tag "app" %>
+    <title><%= locals[:routine].day %> | <%= locals[:routine].name %></title>
   </head>
   <body class="ma-0r">
     <%= yield %>
