@@ -1,6 +1,6 @@
 {
   "title": "Gym Routine Log",
-  "description": "Gym routine log made by Claudio Vallejo.",
+  "description": "Weekly gym routine exercise log used to plan and keep track of physical activity. Designed and developed by Claudio Vallejo. Exercise references link to bodybuilding.com.",
   "image": {
     "og": "https://gym.netlify.com/images/meta/og.jpg",
     "twitter": "https://gym.netlify.com/images/meta/twitter.jpg"
