@@ -13,7 +13,7 @@ function loadElements($elements) {
   for (var i = 0; i < $elements.length; i++) {
     $elements[i].setAttribute('style', 'transition-delay: ' + ((i+1)*0.15) + 's;');
     toggle($elements[i], ['o-0', 'o-1']);
-    toggle($elements[i], ['transform-tY0', 'transform-tY4r']);
+    toggle($elements[i], ['t-translateY0', 't-translateY4r']);
   };
 }
 //  Menu navigation
@@ -25,7 +25,7 @@ var menuSwitch = false;
 if ($menu) {
   $menu.addEventListener('click', function(){
     if (!menuSwitch) {
-      toggle($nav, ['transform-tY0', 'transform-tY100p']);
+      toggle($nav, ['t-translateY0', 't-translateY100p']);
       toggle($cover, ['o-0', 'o-1']);
       toggle($cover, ['pe-none', 'pe-auto']);
       menuSwitch = true;
@@ -36,8 +36,7 @@ if ($menu) {
 if ($cover) {
   $cover.addEventListener('click', function(){
     if (menuSwitch) {
-      toggle($nav, ['
-      ', 'transform-tY100p']);
+      toggle($nav, ['t-translateY0', 't-translateY100p']);
       toggle($cover, ['o-0', 'o-1']);
       toggle($cover, ['pe-none', 'pe-auto']);
       menuSwitch = false;
