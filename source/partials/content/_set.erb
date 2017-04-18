@@ -1,37 +1,43 @@
 <%# Config %>
 <% a = fetch_exercise exercise.exercises[0] %>
 <% sl = exercise.sets.length - 1 %>
+<%# Border %>
+<% if e != el %>
+  <% border = "bbs-solid bbw-1x bc-light_gray" %>
+<% else %>
+  <% border = "" %>
+<% end %>
 <%# End %>
-<article data-value="single" class="function-cb duration1 property-all o0 transform-tYm4 cf pv2 ph1 <% if e != el %>bb b--light-gray<% end %>">
-  <div class="fl w-10">
-    <h1 class="ma0 roboto f1_125 fw5 black"><%= c %></h1>
+<article data-value="single" class="ttf-cubic_bezier td-1s tp-all o-0 transform-tY4r clearfix pv-2r ph-1r <%= border %>">
+  <div class="f-left w-10p">
+    <h1 class="ma-0r ff-roboto fw-500 fs-1_125r c-black"><%= c %></h1>
   </div>
-  <header class="fl w-90" style="margin-bottom: 1.5rem;">
-    <div class="cf" style="margin-bottom: 0.25rem;">
-      <a class="fl ma0 roboto f1_125 fw5 black bg-blue td-none" href="<%= a.source %>" target="_blank"><%= a.name %></a>
-      <h1 class="fr ma0 roboto f1_125 fw5 black"><%= sl + 1 %> Sets</h1>
+  <header class="f-left w-90p mb-1_5r">
+    <div class="clearfix mb-0_25r">
+      <a class="f-left ma-0r ff-roboto fw-500 fs-1_125r c-black bgc-blue td-none" href="<%= a.source %>" target="_blank"><%= a.name %></a>
+      <h1 class="f-right ma-0r ff-roboto fs-1_125r fw-500 c-black"><%= sl + 1 %> Sets</h1>
     </div>
-    <div class="cf">
-      <h3 class="fl ma0 roboto f1 fw5 dark-gray"><%= a.target %> Exercise</h3>
-      <h3 class="fr ma0 roboto f1 fw5 dark-gray"><%= exercise.rest %></h3>
+    <div class="clearfix">
+      <h3 class="f-left ma-0r ff-roboto fw-500 fs-1r c-dark_gray"><%= a.target %> Exercise</h3>
+      <h3 class="f-right ma-0r ff-roboto fw-500 fs-1r c-dark_gray"><%= exercise.rest %></h3>
     </div>
   </header>
-  <div class="cf">
-    <div class="fl w-10" style="height: 1px;"></div>
-    <div class="relative fl w-90 inline-flex justify-between">
+  <div class="cleafix">
+    <div class="f-left w-10p h-1x"></div>
+    <div class="p-relative f-left w-90p d-inline_flex jc-space_between">
       <% exercise.sets.each_with_index do |set, s| %>
         <%# Config %>
         <% if s === 0 %>
-          <% padding = "pr1" %>
+          <% padding = "pr-1r" %>
         <% elsif s != sl && s != 0 %>
-          <% padding = "ph1" %>
+          <% padding = "ph-1r" %>
         <% elsif s === sl %>
-          <% padding = "pl1" %>
+          <% padding = "pl-1r" %>
         <% end %>
         <%# End %>
-        <div class="z-1 <%= padding %> bg-white">
-          <h2 class="ma0 roboto f2 fw5 black"><%= set %></h2>
-          <p class="ma0 roboto f1 fw5 dark-gray">Set <%= s + 1 %></p>
+        <div class="zi-1 <%= padding %> bg-white">
+          <h2 class="ma-0r ff-roboto fw-500 fs-2r c-black"><%= set %></h2>
+          <p class="ma-0r ff-roboto fw-500 fs-1r c-dark_gray">Set <%= s + 1 %></p>
         </div>
       <% end %>
     </div>
