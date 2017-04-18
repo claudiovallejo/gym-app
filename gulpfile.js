@@ -28,7 +28,7 @@ gulp.task('compress-css', function() {
 	.pipe(gulp.dest('build/stylesheets/'));
 });
 
-//  Ignore normalize.css + tachyons.css
+//  Ignore normalize.css
 gulp.task('ignore-css', function () {
   return gulp.src('build/stylesheets/normalize.css', {read: false})
     .pipe(clean());
