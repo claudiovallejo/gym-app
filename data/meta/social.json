@@ -1,0 +1,12 @@
+{
+  "title": "Gym Routine Log",
+  "description": "Gym routine log made by Claudio Vallejo.",
+  "image": {
+    "og": "https://gym.netlify.com/images/meta/og.jpg",
+    "twitter": "https://gym.netlify.com/images/meta/twitter.jpg"
+  },
+  "url": "https://gym.netlify.com",
+  "site": "@claudiovallejop",
+  "type": "website",
+  "card": "summary"
+}

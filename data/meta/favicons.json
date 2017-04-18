@@ -1,0 +1,28 @@
+{
+  "favicons": [
+    {
+      "rel": "apple-touch-icon",
+      "sizes": ["60x60", "72x72", "76x76", "114x114", "120x120", "144x144", "152x152", "180x180"],
+      "extension": ".png"
+    },
+    {
+      "rel": "icon",
+      "sizes": ["16x16", "32x32", "96x96", "192x192"],
+      "extension": ".png"
+    }
+  ],
+  "tiles": [
+    {
+      "name": "msapplication-TileColor",
+      "content": "#ffffff"
+    },
+    {
+      "name": "msapplication-TileImage",
+      "content": "http://www.claudiovallejo.mx/images/meta/apple-touch-icon-144x144.png"
+    },
+    {
+      "name": "theme-color",
+      "content": "#ffffff"
+    }
+  ]
+}
