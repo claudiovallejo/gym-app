@@ -65,7 +65,7 @@
       "exercises": [
         {
           "type": "superset",
-          "exercises": ["Smith Overhead Press", "Barbbell Curl", "Tricep Dips"],
+          "exercises": ["Smith Overhead Press", "Barbell Curl", "Tricep Dips"],
           "sets": [12, 12, 10, 10],
           "rest": "No rest"
         },
@@ -92,6 +92,44 @@
           "exercises": ["Afternoon Run"],
           "duration": "30min",
           "speed": "4 - 6mph"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday April 19, 2017",
+      "name": "Legs, Calves and Abs",
+      "exercises": [
+        {
+          "type": "superset",
+          "exercises": ["Stiff-Legged Deadlift", "Alternating Plate Calf Raise"],
+          "sets": [12, 10, 10, 10],
+          "rest": "No rest"
+        },
+        {
+          "type": "superset",
+          "exercises": ["Dumbbell Lunges", "Seated Calf Raise"],
+          "sets": [12, 10, 10, 10],
+          "rest": "No rest"
+        },
+        {
+          "type": "superset",
+          "exercises": ["Front Barbell Squat", "Dumbbell Calf Raise"],
+          "sets": [12, 12, 10, 10],
+          "rest": "No rest"
+        },
+        {
+          "type": "superset",
+          "exercises": ["Lying Leg Curls", "Smith Calf Raise"],
+          "sets": [15, 12, 12, 10],
+          "rest": "No rest"
+        },
+        {
+          "type": "circuit",
+          "name": "Core Circuit",
+          "target": "Core",
+          "exercises": ["Ab Rollers", "Cocoons", "Cross-Body Crunch", "Reverse Crunches", "Air Bike"],
+          "rounds": "2 Rounds",
+          "duration": "1min"
         }
       ]
     }

@@ -107,7 +107,7 @@
         },
         {
           "type": "superset",
-          "exercises": ["Shoulder Barbbell Press", "Dumbbell Alternate Bicep Curl"],
+          "exercises": ["Shoulder Barbell Press", "Dumbbell Alternate Bicep Curl"],
           "sets": [15, 12, 10, 10],
           "rest": "30sec rest"
         },
@@ -125,7 +125,7 @@
         },
         {
           "type": "superset",
-          "exercises": ["Front Plate Raise", "Barbbell Curl"],
+          "exercises": ["Front Plate Raise", "Barbell Curl"],
           "sets": [15, 12, 10, 10],
           "rest": "30sec rest"
         },
