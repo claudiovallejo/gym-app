@@ -156,3 +156,9 @@ html { -webkit-font-smoothing: antialiased; }
 /* Pointer Events */
 .pe-none { pointer-events: none; }
 .pe-auto { pointer-events: auto; }
+.preload {
+  -webkit-transition: none !important;
+	-moz-transition: none !important;
+	-ms-transition: none !important;
+	-o-transition: none !important;
+}

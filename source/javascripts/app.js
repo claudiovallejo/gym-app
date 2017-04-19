@@ -1,3 +1,12 @@
+//  Preload test
+const $preload = document.getElementsByClassName('preload');
+window.addEventListener("load", function(){
+  if ($preload) {
+    for (var p = 0; p < $preload.length; p++) {
+      $preload[p].classList.remove('preload');
+    }
+  }
+});
 //  Menu navigation
 const $menu = document.querySelector('[data-component="menu"]');
 const $nav = document.querySelector('[data-component="nav"]');
