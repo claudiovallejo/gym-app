@@ -100,6 +100,12 @@
       "name": "Legs, Calves and Abs",
       "exercises": [
         {
+          "type": "cardio",
+          "exercises": ["Treadmill Jog"],
+          "duration": "10min",
+          "speed": "4 - 6mph"
+        },
+        {
           "type": "superset",
           "exercises": ["Stiff-Legged Deadlift", "Alternating Plate Calf Raise"],
           "sets": [12, 10, 10, 10],
