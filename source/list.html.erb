@@ -5,7 +5,7 @@
 <%# Component: Navigation %>
 <%= partial "partials/navigation/nav" %>
 <%# Component: Header %>
-<%= partial("partials/navigation/about", :locals => { :title => week.title }) %>
+<%= partial("partials/navigation/list", :locals => { :title => week.title }) %>
 <main class="mt-53x">
   <% week.routines.each_with_index do |routine, r| %>
     <%# Component: Routine %>
