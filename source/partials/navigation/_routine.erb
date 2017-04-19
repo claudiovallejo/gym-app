@@ -1,0 +1,18 @@
+<%# Config %>
+<% if week.title === "This Week" %>
+  <% href = "/" %>
+<% else %>
+  <% href = "/#{week.title.parameterize}" %>
+<% end %>
+<%# End %>
+<nav class="p-fixed zi-1 t-0r r-0r l-0r w-100p clearfix ma-0r pv-1r bgc-white bbs-solid bbw-1x bc-light_gray">
+  <div class="f-left w-10p">
+    <a class="d-inline-block pl-1r" href="<%= href %>"><%= image_tag "arrow.svg", :class => "pt-4x" %></a>
+  </div>
+  <div class="f-left w-80p">
+    <h1 class="ma-0r ph-1r ff-roboto fw-500 fs-1_125r c-black"><%= routine.name %></h1>
+  </div>
+  <div class="clearfix f-left w-10p">
+    <img data-component="menu" class="f-right d-inline_block pr-1r c-pointer" src="/images/menu.svg">
+  </div>
+</nav>
