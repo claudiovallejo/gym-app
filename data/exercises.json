@@ -170,7 +170,7 @@
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/standing-dumbbell-press-"
   },
   {
-    "name": "Shoulder Barbbell Press",
+    "name": "Shoulder Barbell Press",
     "target": "Deltoid",
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/barbell-shoulder-press"
   },
@@ -230,7 +230,7 @@
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/hammer-curls"
   },
   {
-    "name": "Barbbell Curl",
+    "name": "Barbell Curl",
     "target": "Bicep",
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/barbell-curl"
   },
@@ -255,6 +255,11 @@
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/lying-leg-curls"
   },
   {
+    "name": "Stiff-Legged Deadlift",
+    "target": "Hamstring",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/stiff-legged-barbell-deadlift"
+  },
+  {
     "name": "Leg Press",
     "target": "Quad",
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/leg-press"
@@ -275,6 +280,16 @@
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/leg-extensions"
   },
   {
+    "name": "Dumbbell Lunges",
+    "target": "Quad",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/dumbbell-lunges"
+  },
+  {
+    "name": "Front Barbell Squat",
+    "target": "Quad",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/front-barbell-squat"
+  },
+  {
     "name": "Alternating Plate Calf Raise",
     "target": "Calf",
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/standing-dumbbell-calf-raise"
@@ -290,9 +305,19 @@
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/seated-calf-raise"
   },
   {
+    "name": "Smith Calf Raise",
+    "target": "Calf",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/smith-machine-calf-raise"
+  },
+  {
     "name": "Crunches",
     "target": "Core",
     "source": "http://www.bodybuilding.com/exercises/detail/view/name/crunches"
+  },
+  {
+    "name": "Reverse Crunches",
+    "target": "Core",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/reverse-crunch"
   },
   {
     "name": "Ab Crunch Machine",
@@ -333,5 +358,10 @@
     "name": "Hanging Leg Raises",
     "target": "Core",
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/hanging-leg-raise"
+  },
+  {
+    "name": "Cross-Body Crunch",
+    "target": "Core",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/cross-body-crunch"
   }
 ]
