@@ -22,7 +22,7 @@
       <h3 class="f-right ma-0r ff-roboto fw-500 fs-1r c-dark_gray"><%= exercise.rest %></h3>
     </div>
   </header>
-  <div class="cleafix">
+  <div class="clearfix">
     <div class="f-left w-10p h-1x"></div>
     <div class="p-relative f-left w-90p d-inline_flex jc-space_between">
       <% exercise.sets.each_with_index do |set, s| %>
@@ -35,7 +35,7 @@
           <% padding = "pl-1r" %>
         <% end %>
         <%# End %>
-        <div class="zi-1 <%= padding %> bg-white">
+        <div class="<%= padding %> bg-white">
           <h2 class="ma-0r ff-roboto fw-500 fs-2r c-black"><%= set %></h2>
           <p class="ma-0r ff-roboto fw-500 fs-1r c-dark_gray">Set <%= s + 1 %></p>
         </div>
