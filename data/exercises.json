@@ -65,6 +65,16 @@
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/decline-dumbbell-bench-press"
   },
   {
+    "name": "Cable Flyes",
+    "target": "Chest",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/cable-crossover"
+  },
+  {
+    "name": "Dumbbell Pullovers",
+    "target": "Chest",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/straight-arm-dumbbell-pullover"
+  },
+  {
     "name": "Tricep Dips",
     "target": "Tricep",
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/dips-triceps-version"
