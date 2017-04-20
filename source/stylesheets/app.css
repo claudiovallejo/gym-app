@@ -126,6 +126,7 @@
   - Properties
   - Opacity
   - Transforms
+  - Preload
 */
 /* Functions */
 .ttf-cubic_bezier { -webkit-transition-timing-function: cubic-bezier(.25,.8,.25,1); transition-timing-function: cubic-bezier(.25,.8,.25,1); }
@@ -143,6 +144,13 @@
 .t-translateY4r { -webkit-transform: translateY(4rem); transform: translateY(4rem); }
 .t-translateY0 { -webkit-transform: translateY(0); transform: translateY(0); }
 .t-translateY100p { -webkit-transform: translateY(100%); transform: translateY(100%); }
+/* Preload */
+.preload {
+  -webkit-transition: none !important;
+	-moz-transition: none !important;
+	-ms-transition: none !important;
+	-o-transition: none !important;
+}
 /*
   OTHER
   - General
@@ -156,9 +164,3 @@ html { -webkit-font-smoothing: antialiased; }
 /* Pointer Events */
 .pe-none { pointer-events: none; }
 .pe-auto { pointer-events: auto; }
-.preload {
-  -webkit-transition: none !important;
-	-moz-transition: none !important;
-	-ms-transition: none !important;
-	-o-transition: none !important;
-}
