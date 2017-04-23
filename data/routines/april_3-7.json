@@ -1,5 +1,5 @@
 {
-  "order": 3,
+  "order": 4,
   "title": "Week of April 3 - 7",
   "type": "week",
   "routines": [
@@ -151,7 +151,7 @@
         },
         {
           "type": "superset",
-          "exercises": ["Shoulder Barbell Press", "Dumbbell Alternate Bicep Curl"],
+          "exercises": ["Shoulder Barbbell Press", "Dumbbell Alternate Bicep Curl"],
           "sets": [15, 12, 10, 10],
           "rest": "30sec rest"
         },
