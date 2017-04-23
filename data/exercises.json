@@ -75,6 +75,16 @@
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/straight-arm-dumbbell-pullover"
   },
   {
+    "name": "Pushups",
+    "target": "Chest",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/pushups"
+  },
+  {
+    "name": "Close-Grip Barbbell Press",
+    "target": "Tricep",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/close-grip-barbell-bench-press"
+  },
+  {
     "name": "Tricep Dips",
     "target": "Tricep",
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/dips-triceps-version"
@@ -180,7 +190,7 @@
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/standing-dumbbell-press-"
   },
   {
-    "name": "Shoulder Barbell Press",
+    "name": "Shoulder Barbbell Press",
     "target": "Deltoid",
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/barbell-shoulder-press"
   },
@@ -278,6 +288,11 @@
     "name": "Smith Squat",
     "target": "Quad",
     "source": "https://www.bodybuilding.com/exercises/detail/view/name/smith-machine-squat"
+  },
+  {
+    "name": "Barbbell Squat",
+    "target": "Quad",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/barbell-squat"
   },
   {
     "name": "Wall Squat",
