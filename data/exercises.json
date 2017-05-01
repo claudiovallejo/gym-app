@@ -115,6 +115,11 @@
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/lying-dumbbell-tricep-extension"
   },
   {
+    "name": "Weighted Bench Dip",
+    "target": "Tricep",
+    "source": "https://www.bodybuilding.com/exercises/main/popup/name/weighted-bench-dip"
+  },
+  {
     "name": "Wide Overhand Pullups",
     "target": "Lat",
     "source": "https://www.bodybuilding.com/exercises/main/popup/name/pullups"
